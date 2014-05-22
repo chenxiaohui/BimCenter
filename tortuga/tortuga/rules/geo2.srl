@@ -1,0 +1,16 @@
+/*SubModel Retrieval Language*/
+IFCBEAM
+    Representation
+        Representations 
+            Items
+    ObjectPlacement
+IFCCOLUMN
+    Representation
+        Representations 
+            Items
+    ObjectPlacement
+IFCFOOTING
+    Representation
+        Representations 
+            Items
+    ObjectPlacement

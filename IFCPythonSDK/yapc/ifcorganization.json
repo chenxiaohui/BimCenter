@@ -1,0 +1,58 @@
+IfcOrganization************************************************************
+{
+    "derive": {}, 
+    "attribute": {
+        "Description": "OPTIONAL IfcText", 
+        "Addresses": "OPTIONAL LIST [ 1 : ? ] OF IfcAddress", 
+        "Id": "OPTIONAL IfcIdentifier", 
+        "Roles": "OPTIONAL LIST [ 1 : ? ] OF IfcActorRole", 
+        "Name": "IfcLabel"
+    }, 
+    "subtype": [], 
+    "inverse": {
+        "IsRelatedBy": "SET [ 0 : ? ] OF IfcOrganizationRelationship FOR RelatedOrganizations", 
+        "Engages": "SET [ 0 : ? ] OF IfcPersonAndOrganization FOR TheOrganization", 
+        "Relates": "SET [ 0 : ? ] OF IfcOrganizationRelationship FOR RelatingOrganization"
+    }, 
+    "supertype": "", 
+    "unique": {}, 
+    "where": {}
+}
+IfcAddress************************************************************
+{
+    "derive": {}, 
+    "attribute": {
+        "UserDefinedPurpose": "OPTIONAL IfcLabel", 
+        "Purpose": "OPTIONAL IfcAddressTypeEnum", 
+        "Description": "OPTIONAL IfcText"
+    }, 
+    "subtype": [
+        "IfcPostalAddress", 
+        "IfcTelecomAddress"
+    ], 
+    "inverse": {
+        "OfOrganization": "SET [ 0 : ? ] OF IfcOrganization FOR Addresses", 
+        "OfPerson": "SET [ 0 : ? ] OF IfcPerson FOR Addresses"
+    }, 
+    "supertype": "", 
+    "unique": {}, 
+    "where": {
+        "WR1": "( NOT ( EXISTS ( Purpose ) ) ) OR ( ( Purpose <> IfcAddressTypeEnum.USERDEFINED ) OR ( ( Purpose = IfcAddressTypeEnum.USERDEFINED ) AND EXISTS ( SELF.UserDefinedPurpose ) ) )"
+    }
+}
+IfcActorRole************************************************************
+{
+    "derive": {}, 
+    "attribute": {
+        "UserDefinedRole": "OPTIONAL IfcLabel", 
+        "Role": "IfcRoleEnum", 
+        "Description": "OPTIONAL IfcText"
+    }, 
+    "subtype": [], 
+    "inverse": {}, 
+    "supertype": "", 
+    "unique": {}, 
+    "where": {
+        "WR1": "( Role <> IfcRoleEnum.USERDEFINED ) OR ( ( Role = IfcRoleEnum.USERDEFINED ) AND EXISTS ( SELF.UserDefinedRole ) )"
+    }
+}

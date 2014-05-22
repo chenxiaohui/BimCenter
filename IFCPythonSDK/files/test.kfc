@@ -1,0 +1,17 @@
+
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('ViewDefinition [CoordinationView]'),'2;1');
+FILE_NAME('','2012-04-18T11:51:30',(''),(''),'Autodesk Revit Architecture 2011 - 1.0','20100326_1700(x64)','');
+FILE_SCHEMA(('IFC2X3'));
+ENDSEC;
+DATA;
+#1=KDRAWINGS("红杉溪谷总图施工图","dwg","url");/*定义一张图纸*/
+#2=KPROJECT("红杉溪谷项目");/*定义一个项目*/
+#3=KDESIGNELEMENT("总图施工图");/*定义一个设计元素*/
+#4=KCOMPANY("中建地产","北京");/*定义一个公司*/
+#5=KRELBELONGEDTOPROJECT((#1),#2);/*图纸属于红杉溪谷项目*/
+#6=KRELBELONGEDTOELEMENT((#1),#3);/*图纸属于总图施工图设计元素*/
+#7=KRELPARTICIPATE((#4),#2);/*中建地产参与了红杉溪谷项目开发*/
+ENDSEC;
+END-ISO-10303-21;

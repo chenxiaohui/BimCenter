@@ -1,0 +1,7 @@
+/*SubModel Retrieval Language*/
+IFCWALLSTANDARDCASE where GlobalId='2IG2vFkmL2xREpSneDGPqM'
+    Representation
+        Representations where RepresentationIdentifier='Body'
+            Items
+    ObjectPlacement
+    OwnerHistory

@@ -1,0 +1,1407 @@
+2013-03-06 21:33:58,196 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-06 21:33:58,815 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-06 21:34:06,839 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-06 21:34:07,625 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-06 21:34:10,937 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-03-06 21:34:11,657 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-03-06 21:34:15,210 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-03-06 21:34:17,690 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-03-06 21:34:20,302 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-06 21:34:22,907 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2' ); args=(1, Decimal('2'))
+2013-03-06 21:34:23,002 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-06 21:34:23,440 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-06 21:34:24,588 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-06 21:34:25,015 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-06 21:34:26,690 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-06 21:34:26,691 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 1  LIMIT 1; args=(1,)
+2013-03-06 21:34:35,384 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-06 21:34:36,517 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 10:58:53,885 [DEBUG] (0.053) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 10:58:54,499 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 10:58:56,585 [DEBUG] (0.117) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 10:58:57,229 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 10:59:02,990 [DEBUG] (0.017) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 10:59:03,605 [DEBUG] (0.002) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 10:59:11,960 [DEBUG] (0.001) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-03-14 10:59:12,266 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-03-14 11:03:05,367 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:03:05,943 [DEBUG] (0.003) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:03:06,592 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 11:03:07,204 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 11:03:08,367 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:03:08,960 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:03:15,299 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:03:15,575 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:03:17,328 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 11:03:17,622 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 11:03:19,628 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:03:19,924 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:04:28,221 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:04:28,677 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 11:04:29,961 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:06:28,184 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:06:44,002 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 11:16:57,247 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:16:57,686 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:17:00,763 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 11:17:01,078 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 11:17:04,279 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:17:04,578 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:17:07,395 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:17:07,401 [DEBUG] (0.001) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 1  LIMIT 1; args=(1,)
+2013-03-14 11:17:11,923 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 11:17:21,394 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:17:21,658 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:17:25,525 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:17:25,526 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 2  LIMIT 1; args=(2,)
+2013-03-14 11:21:34,936 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:21:35,326 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:21:42,773 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 2 ; args=(2,)
+2013-03-14 11:21:43,056 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 2 ; args=(2,)
+2013-03-14 11:22:25,257 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 2 ; args=(2,)
+2013-03-14 11:22:25,651 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 2 ; args=(2,)
+2013-03-14 11:22:30,076 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 2  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(2, Decimal('1.0'))
+2013-03-14 11:22:30,345 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 2  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(2, Decimal('1.0'))
+2013-03-14 11:22:35,385 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 2 ; args=(2,)
+2013-03-14 11:22:38,644 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 11:39:04,397 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:39:04,417 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 2 ; args=(2,)
+2013-03-14 11:39:09,288 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:39:09,552 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:39:12,969 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:39:19,789 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:39:20,085 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-14 11:39:30,467 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 11:39:30,772 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-14 11:46:33,671 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:46:34,134 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:46:50,421 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-14 11:46:50,427 [DEBUG] (0.001) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 1  LIMIT 1; args=(1,)
+2013-03-15 15:52:53,808 [DEBUG] (0.041) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-15 15:52:54,197 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-15 15:52:55,936 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 15:52:56,635 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 15:53:13,331 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 15:53:14,042 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 15:56:30,154 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-03-15 15:56:30,645 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-03-15 15:58:18,371 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 15:58:18,819 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 15:58:21,448 [DEBUG] (0.101) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-15 15:58:21,857 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-15 15:58:37,198 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-03-15 15:58:37,591 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-03-15 16:00:17,528 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 16:00:18,201 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 16:00:22,572 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-15 16:00:22,984 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-15 16:00:24,276 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-15 16:00:24,278 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 1  LIMIT 1; args=(1,)
+2013-03-15 16:32:25,901 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-15 16:32:26,538 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-15 16:32:57,487 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 16:32:58,144 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 16:33:09,306 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 16:33:09,737 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 16:33:13,927 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-15 16:33:14,302 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-15 16:33:41,039 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-03-15 16:33:41,539 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-03-15 16:34:07,714 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 16:34:08,105 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-15 16:34:10,365 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-15 16:34:10,756 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-15 16:34:16,496 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-03-15 16:34:16,497 [DEBUG] (0.001) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 1  LIMIT 1; args=(1,)
+2013-03-31 12:50:35,911 [DEBUG] (0.048) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-31 12:50:36,657 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-03-31 12:50:44,108 [DEBUG] (0.046) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-31 12:50:46,329 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 2 ; args=(2,)
+2013-03-31 12:50:49,081 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 12:50:55,369 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 12:51:49,530 [ERROR] Internal Server Error: /model/3/
+Traceback (most recent call last):
+  File "D:\Program\Python27\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\lab\src\tortuga\sdk\views.py", line 57, in modelView
+    parseIFC(filename,hash,mid)
+  File "D:\work\lab\src\tortuga\sdk\ifc.py", line 34, in parseIFC
+    toMySQL(model,expDataSet,hash,int(mid),increment)
+  File "..\IFCPythonSDK\tomysql.py", line 118, in toMySQL
+    insertMagnanimity(model,dataset,hash)
+  File "..\IFCPythonSDK\tomysql.py", line 223, in insertMagnanimity
+    cur.executemany('insert into `'+hash+'` values(%s,%s,%s)',values)
+  File "D:\Program\Python27\lib\site-packages\MySQLdb\cursors.py", line 253, in executemany
+    r = self._query('\n'.join([query[:p], ',\n'.join(q), query[e:]]))
+  File "D:\Program\Python27\lib\site-packages\MySQLdb\cursors.py", line 346, in _query
+    rowcount = self._do_query(q)
+  File "D:\Program\Python27\lib\site-packages\MySQLdb\cursors.py", line 310, in _do_query
+    db.query(q)
+DataError: (1406, "Data too long for column 'param' at row 23")
+2013-03-31 12:53:59,142 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 12:54:02,979 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 12:54:03,365 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 12:55:41,861 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 12:55:42,367 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 12:55:59,385 [DEBUG] (0.001) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-03-31 12:55:59,892 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-03-31 12:56:35,839 [DEBUG] (0.000) INSERT INTO `sdk_srl` (`name`, `desc`, `file`) VALUES ('提取结构模型', '提取几个基础几何结构构件', 'rules/geo2.srl'); args=[u'\u63d0\u53d6\u7ed3\u6784\u6a21\u578b', u'\u63d0\u53d6\u51e0\u4e2a\u57fa\u7840\u51e0\u4f55\u7ed3\u6784\u6784\u4ef6', u'rules/geo2.srl']
+2013-03-31 12:56:36,063 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-03-31 12:56:36,546 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-03-31 12:56:47,980 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 12:56:48,348 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 12:56:50,591 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 12:56:50,963 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 12:57:00,736 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 12:57:02,487 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 12:57:11,486 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-03-31 12:57:11,865 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-03-31 12:57:24,520 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 12:57:24,838 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 12:57:27,974 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 12:57:28,293 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 13:05:28,756 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 13:05:30,698 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 13:16:41,960 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-31 13:16:42,391 [DEBUG] (0.002) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-03-31 13:16:57,687 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 13:16:58,206 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 3 ; args=(3,)
+2013-03-31 13:17:00,098 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 13:17:00,483 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 13:20:30,644 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 13:20:30,648 [DEBUG] (0.001) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 3  LIMIT 1; args=(3,)
+2013-03-31 13:23:23,789 [ERROR] Internal Server Error: /model/3/1.0/
+Traceback (most recent call last):
+  File "D:\Program\Python27\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\lab\src\tortuga\sdk\views.py", line 107, in versionView
+    subContent=toSubModel(srlfilename,version.hash)
+  File "D:\work\lab\src\tortuga\sdk\ifc.py", line 44, in toSubModel
+    return getSubModel(srl,hash)
+  File "..\IFCPythonSDK\srlparser.py", line 231, in getSubModel
+    visitEntities(parseSRL(srl))
+  File "..\IFCPythonSDK\srlparser.py", line 94, in visitEntities
+    extractAttr(attr,ids)
+  File "..\IFCPythonSDK\srlparser.py", line 124, in extractAttr
+    extractAttr(attr,refs)
+  File "..\IFCPythonSDK\srlparser.py", line 124, in extractAttr
+    extractAttr(attr,refs)
+  File "..\IFCPythonSDK\srlparser.py", line 127, in extractAttr
+    subids.update(extractSubItems(refs))
+  File "..\IFCPythonSDK\srlparser.py", line 135, in extractSubItems
+    params=getParam(curId)
+  File "..\IFCPythonSDK\srlparser.py", line 210, in getParam
+    return param
+UnboundLocalError: local variable 'param' referenced before assignment
+2013-03-31 13:24:04,792 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 13:24:07,029 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 13:24:07,414 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 13:24:15,028 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 13:24:15,029 [DEBUG] (0.001) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 3  LIMIT 1; args=(3,)
+2013-03-31 13:27:18,180 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 3  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(3, Decimal('1.0'))
+2013-03-31 13:27:18,183 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 3  LIMIT 1; args=(3,)
+2013-04-10 15:30:31,374 [DEBUG] (0.072) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-04-10 15:30:31,862 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-04-10 15:31:18,312 [DEBUG] (0.033) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-04-10 15:31:18,779 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-04-10 15:31:57,132 [DEBUG] (0.023) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-04-10 15:31:57,608 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-04-10 15:32:30,604 [DEBUG] (0.001) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-04-10 15:32:30,973 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-04-10 16:23:33,918 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-04-10 16:23:34,302 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-04-10 16:23:35,207 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-04-10 16:23:35,709 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-04-10 16:23:38,809 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-04-10 16:23:39,204 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-04-10 16:23:41,635 [DEBUG] (0.002) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-04-10 16:23:41,640 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 1  LIMIT 1; args=(1,)
+2013-05-01 18:23:27,894 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:23:29,148 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:24:53,506 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:24:56,016 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:28:07,688 [DEBUG] (0.004) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:28:09,086 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:28:51,808 [DEBUG] (0.002) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:28:53,153 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:28:57,549 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:29:14,838 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:29:16,648 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:29:19,029 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:29:45,595 [DEBUG] (0.002) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:29:47,565 [DEBUG] (0.002) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:29:49,703 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:30:32,128 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:30:34,058 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:31:49,759 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:31:50,365 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:33:14,174 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:33:16,096 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:33:17,914 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:33:18,276 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 18:33:19,007 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 18:33:20,644 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:33:42,474 [DEBUG] (0.003) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:33:44,342 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:35:00,789 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:35:02,604 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:35:32,296 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:35:34,078 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:36:11,969 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:36:13,645 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:36:31,627 [DEBUG] (0.002) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:36:32,111 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:36:49,793 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:36:51,529 [DEBUG] (0.002) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:37:10,075 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:37:11,720 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:37:29,427 [DEBUG] (0.004) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:37:29,743 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:37:40,269 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:37:40,608 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:37:51,750 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:37:51,987 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:37:55,894 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:37:56,153 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:38:04,384 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:38:04,782 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:40:39,088 [DEBUG] (0.004) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:40:39,513 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:41:13,826 [DEBUG] (0.002) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:41:15,582 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:41:34,112 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:41:34,414 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:42:30,381 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:42:34,411 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:42:36,019 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:43:19,604 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:43:22,533 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:43:24,154 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:43:25,585 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:43:26,279 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:43:27,892 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:43:28,490 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:53:43,207 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:53:43,628 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:53:52,322 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:53:54,085 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:55:19,280 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:55:21,000 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:55:39,302 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:55:41,053 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:55:41,394 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:55:43,148 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:55:58,746 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:56:00,529 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:56:11,085 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:56:12,822 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:56:13,075 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:56:14,739 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:56:16,394 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:56:18,144 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:56:50,710 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:56:52,447 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:56:57,854 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:56:59,546 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:57:20,171 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:57:21,845 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:57:37,503 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:59:27,377 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:59:27,737 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:59:41,391 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:59:44,292 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:59:50,631 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 18:59:50,970 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:09:15,118 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 19:09:15,691 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 19:09:16,322 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:09:16,786 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:09:23,210 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:09:23,529 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:10:11,025 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:10:12,750 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:10:22,782 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:10:23,073 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:10:33,664 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:10:34,036 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:10:45,181 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:10:46,887 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:10:48,868 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:10:49,164 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:12:01,196 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:12:01,697 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:12:07,743 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:12:08,019 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:12:23,246 [DEBUG] (0.002) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:12:24,855 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:12:35,691 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:12:36,065 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:15:11,680 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:15:12,135 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:15:31,096 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:15:31,546 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:15:41,003 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:15:41,388 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:16:07,897 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:16:11,131 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:16:19,088 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:16:19,453 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:17:51,371 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:17:51,927 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:21:27,036 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:21:28,772 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:22:34,793 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:22:36,588 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:23:15,756 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:26:05,194 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:26:05,654 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:26:10,865 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:27:22,841 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:27:23,328 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:27:30,851 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:27:31,234 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:27:45,470 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:27:47,072 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:27:54,003 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:27:54,351 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:28:58,345 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:29:00,089 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:30:01,608 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:30:03,384 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:31:35,484 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:31:37,180 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:32:07,325 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:32:09,002 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:32:18,286 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:32:20,035 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:34:54,075 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:34:55,818 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:36:51,614 [DEBUG] (0.002) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:36:53,354 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:37:18,292 [DEBUG] (0.002) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:37:18,709 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:39:23,757 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:39:24,257 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:47:50,615 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 19:47:52,486 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:03:59,690 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:04:00,706 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:05:12,588 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:05:13,956 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:05:26,546 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:05:30,164 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:05:38,556 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:05:40,806 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:05:46,507 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:05:56,223 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:05:58,130 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:05:58,811 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:06:33,022 [DEBUG] (0.002) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:06:34,757 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:06:39,417 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:06:40,122 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:09:38,460 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:09:39,036 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:10:11,842 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:10:12,296 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:10:19,132 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:10:19,486 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:12:11,132 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:12:11,770 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:12:33,371 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:12:34,332 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:14:03,964 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:14:04,592 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:14:16,677 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:15:02,729 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:15:03,108 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:15:06,536 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:15:06,927 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:15:36,424 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:15:36,956 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:20:20,132 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:20:21,852 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:20:30,471 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:20:30,835 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:20:35,726 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:20:36,032 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:20:58,549 [DEBUG] (0.001) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:20:58,552 [ERROR] Internal Server Error: /models/
+Traceback (most recent call last):
+  File "D:\Program\Python27\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\lab\src\tortuga\sdk\views.py", line 23, in modelsView
+    return render_to_response('models.html',{'models':models})
+  File "D:\Program\Python27\lib\site-packages\django\shortcuts\__init__.py", line 20, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "D:\Program\Python27\lib\site-packages\django\template\loader.py", line 169, in render_to_string
+    t = get_template(template_name)
+  File "D:\Program\Python27\lib\site-packages\django\template\loader.py", line 145, in get_template
+    template, origin = find_template(template_name)
+  File "D:\Program\Python27\lib\site-packages\django\template\loader.py", line 134, in find_template
+    source, display_name = loader(name, dirs)
+  File "D:\Program\Python27\lib\site-packages\django\template\loader.py", line 42, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "D:\Program\Python27\lib\site-packages\django\template\loader.py", line 48, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "D:\Program\Python27\lib\site-packages\django\template\loader.py", line 156, in get_template_from_string
+    return Template(source, origin, name)
+  File "D:\Program\Python27\lib\site-packages\django\template\base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "D:\Program\Python27\lib\site-packages\django\template\base.py", line 153, in compile_string
+    return parser.parse()
+  File "D:\Program\Python27\lib\site-packages\django\template\base.py", line 267, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Program\Python27\lib\site-packages\django\template\loader_tags.py", line 214, in do_extends
+    nodelist = parser.parse()
+  File "D:\Program\Python27\lib\site-packages\django\template\base.py", line 267, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Program\Python27\lib\site-packages\django\template\loader_tags.py", line 189, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "D:\Program\Python27\lib\site-packages\django\template\base.py", line 267, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Program\Python27\lib\site-packages\django\template\defaulttags.py", line 762, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "D:\Program\Python27\lib\site-packages\django\template\base.py", line 265, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Program\Python27\lib\site-packages\django\template\base.py", line 320, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'model.id', expected 'empty' or 'endfor'
+2013-05-01 20:21:10,013 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:21:10,368 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:21:43,233 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:21:44,983 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:21:49,109 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:21:49,433 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:22:31,072 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:22:32,805 [DEBUG] (0.000) 
+        SELECT DISTINCT model_id
+        FROM sdk_indexes
+        ; args=()
+2013-05-01 20:26:28,931 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:26:30,697 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:26:55,102 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:26:58,299 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:28:20,914 [ERROR] Internal Server Error: /models/
+Traceback (most recent call last):
+  File "D:\Program\Python27\lib\site-packages\django\core\handlers\base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "D:\work\lab\src\tortuga\sdk\views.py", line 16, in modelsView
+    cursor = connection.DictCurosr()
+  File "D:\Program\Python27\lib\site-packages\django\db\__init__.py", line 34, in __getattr__
+    return getattr(connections[DEFAULT_DB_ALIAS], item)
+AttributeError: 'DatabaseWrapper' object has no attribute 'DictCurosr'
+2013-05-01 20:30:40,306 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:30:43,076 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:30:43,315 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:30:43,997 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:31:12,625 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:31:14,253 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:33:07,167 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:33:08,969 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:33:11,183 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:33:12,084 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:33:36,002 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:33:36,940 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:33:37,811 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:33:37,930 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:34:09,117 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:34:09,430 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:34:13,263 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:34:13,671 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:34:13,796 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:34:14,861 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:34:15,253 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:34:27,776 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:34:28,269 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:34:30,055 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:34:30,391 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:35:21,727 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:35:22,196 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:35:27,642 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:35:27,950 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:35:28,480 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:35:28,785 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:36:02,062 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:36:03,753 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:36:39,003 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:36:39,339 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:36:40,730 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:36:41,187 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:37:17,023 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:37:19,269 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:37:20,539 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:37:23,786 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:37:24,029 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:38:20,371 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:38:20,953 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:38:22,789 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-05-01 20:38:23,398 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-05-01 20:38:27,720 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-05-01 20:38:37,740 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-05-01 20:38:37,743 [DEBUG] (0.001) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 1  LIMIT 1; args=(1,)
+2013-05-01 20:38:59,138 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:38:59,450 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:39:01,609 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:39:01,848 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:40:26,536 [DEBUG] (0.001) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-05-01 20:40:26,973 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-05-01 20:41:13,852 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:41:14,243 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:41:15,825 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:41:16,091 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:41:41,424 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:41:42,042 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:41:44,229 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-05-01 20:41:44,861 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-05-01 20:41:49,451 [DEBUG] (0.001) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-05-01 20:41:49,742 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-05-01 20:42:06,124 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:42:06,467 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:42:07,763 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:42:08,006 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:42:12,898 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-05-01 20:42:13,430 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-05-01 20:42:14,851 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-05-01 20:42:14,854 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 1  LIMIT 1; args=(1,)
+2013-05-01 20:46:51,532 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-05-01 20:46:53,288 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '2.0' ) LIMIT 1; args=(1, Decimal('2.0'))
+2013-05-01 20:50:19,289 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:50:19,753 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:50:21,157 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:50:21,431 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:50:28,908 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:50:29,226 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:51:05,862 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:51:06,210 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:51:07,005 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:51:07,315 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:51:13,091 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:51:13,637 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:51:15,931 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '3.0' ) LIMIT 1; args=(1, Decimal('3.0'))
+2013-05-01 20:51:16,476 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '3.0' ) LIMIT 1; args=(1, Decimal('3.0'))
+2013-05-01 20:51:24,696 [DEBUG] (0.001) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-05-01 20:51:24,992 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl`; args=()
+2013-05-01 20:51:37,447 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:51:38,045 [DEBUG] (0.001) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-01 20:51:38,812 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:51:39,421 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-01 20:51:41,032 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '3.0' ) LIMIT 1; args=(1, Decimal('3.0'))
+2013-05-01 20:51:41,571 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '3.0' ) LIMIT 1; args=(1, Decimal('3.0'))
+2013-05-01 20:51:42,871 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '3.0' ) LIMIT 1; args=(1, Decimal('3.0'))
+2013-05-01 20:51:42,872 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 1  LIMIT 1; args=(1,)
+2013-05-01 20:55:15,767 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '3.0' ) LIMIT 1; args=(1, Decimal('3.0'))
+2013-05-01 20:55:17,802 [DEBUG] (0.000) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '3.0' ) LIMIT 1; args=(1, Decimal('3.0'))
+2013-05-14 16:47:43,049 [DEBUG] (0.076) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-14 16:47:44,362 [DEBUG] (0.000) 
+        SELECT  model_id as id ,count(model_id) as cnt FROM sdk_indexes group by model_id;
+        ; args=()
+2013-05-14 16:47:48,724 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-14 16:47:49,032 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE `sdk_indexes`.`model_id` = 1 ; args=(1,)
+2013-05-14 16:47:57,279 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-05-14 16:47:57,529 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-05-14 16:48:08,614 [DEBUG] (0.001) SELECT `sdk_indexes`.`id`, `sdk_indexes`.`hash`, `sdk_indexes`.`version`, `sdk_indexes`.`model_id`, `sdk_indexes`.`description`, `sdk_indexes`.`implementationLevel`, `sdk_indexes`.`name`, `sdk_indexes`.`author`, `sdk_indexes`.`organization`, `sdk_indexes`.`preprocessorVersion`, `sdk_indexes`.`originatingSystem`, `sdk_indexes`.`authorization`, `sdk_indexes`.`schemaIdentifiers` FROM `sdk_indexes` WHERE (`sdk_indexes`.`model_id` = 1  AND `sdk_indexes`.`version` = '1.0' ) LIMIT 1; args=(1, Decimal('1.0'))
+2013-05-14 16:48:08,617 [DEBUG] (0.000) SELECT `sdk_srl`.`id`, `sdk_srl`.`name`, `sdk_srl`.`desc`, `sdk_srl`.`file` FROM `sdk_srl` WHERE `sdk_srl`.`id` = 1  LIMIT 1; args=(1,)

@@ -1,0 +1,17 @@
+2013-05-08 07:42:42,058 [ERROR] BaseSPFReader : Syntax error on entity id, line 0
+2013-05-08 07:43:04,582 [ERROR] BaseSPFReader : Syntax error on entity id, line 0
+2013-05-08 07:43:31,601 [ERROR] BaseSPFReader : Syntax error on entity id, line 0
+2013-05-08 07:43:31,601 [ERROR] SubModel : Syntax error on entity id, line 0
+2013-05-08 07:44:21,249 [ERROR] BaseSPFReader : Syntax error on entity id, line 0
+2013-05-08 07:44:21,250 [ERROR] SubModel : Syntax error on entity id, line 0
+2013-05-08 08:01:33,078 [ERROR] Inverse links : Error during reading parameter 0 of KRelBelongedTo, line 0
+2013-05-08 08:01:33,079 [ERROR] Inverse links : Error during reading parameter 0 of KRelBelongedTo, line 0
+2013-05-08 08:01:33,081 [ERROR] Inverse links : Error during reading parameter 0 of KRelParticipate, line 0
+2013-06-02 12:33:09,505 [ERROR] Malformed string, odd number of '
+2013-06-02 12:33:09,505 [ERROR] BaseSPFReader : Can't find END-ISO-10303-21 token, line 0
+2013-06-03 09:30:08,407 [ERROR] Argument description in template temp.ifc not supplied.
+2013-06-03 09:31:01,529 [ERROR] Argument description in template temp.ifc not supplied.
+2013-06-03 09:31:48,315 [ERROR] Argument description in template temp.ifc not supplied.
+2013-06-03 09:33:30,250 [ERROR] Argument description in template temp.ifc not supplied.
+2013-06-03 09:34:20,885 [ERROR] Argument description in template temp.ifc not supplied.
+2013-06-03 09:35:23,661 [ERROR] Argument description in template temp.ifc not supplied.

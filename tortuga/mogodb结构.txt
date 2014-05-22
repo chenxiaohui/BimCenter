@@ -1,0 +1,2 @@
+db名->ifc
+collection名->md5，论文中所说的guid

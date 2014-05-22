@@ -1,0 +1,10 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('{description}'),'{implementationLevel}');
+FILE_NAME('{name}','2012-04-18T11:51:30',(''),(''),'{preprocessorVersion}','{originatingSystem}','{authorization}');
+FILE_SCHEMA(('{schemaIdentifiers}'));
+ENDSEC;
+DATA;
+{data}
+ENDSEC;
+END-ISO-10303-21;

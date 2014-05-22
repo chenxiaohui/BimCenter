@@ -1,0 +1,28 @@
+
+
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div class="hero-unit">
+	<h1>模型{{mid}},版本{{version.version}}</h1>
+	<p>{{version.hash}}</p>
+	<p>
+	<a class="btn btn-primary btn-large" href='/{{version.file.url}}'> 下载 </a>
+	</p>
+</div>
+
+<form class="well form-search">
+	<input type="text" class="input-medium search-query">
+	<button type="submit" class="btn">检索</button>
+</form>
+
+
+<form class="well form-search" action="" method="POST">
+	{{srlform}}
+	<input class="btn btn-primary btn-large" type='submit' value='导出子模型'/> 
+</form>
+
+{% endblock %}
+

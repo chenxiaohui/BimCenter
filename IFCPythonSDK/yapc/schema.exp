@@ -1,0 +1,74 @@
+SCHEMA KFC;
+
+TYPE KTEXT = STRING;
+END_TYPE;
+
+ENTITY KRoot;
+END_ENTITY ;
+
+ENTITY KRelation
+ SUBTYPE OF (KRoot);
+END_ENTITY;
+
+ENTITY KRelParticipate 
+	SUBTYPE OF (KRelation);
+		Participant : SET [1:?] OF KCompany;
+		Project : KProject;
+END_ENTITY;
+
+ENTITY KRelBelongedToProject
+	SUBTYPE OF (KRelation);
+		Documents : SET [1:?] OF KDocument;
+		Owner : KProject;
+END_ENTITY;
+
+ENTITY KRelBelongedToElement
+	SUBTYPE OF (KRelation);
+		Documents : SET [1:?] OF KDocument;
+		Owner : KProject;
+END_ENTITY;
+
+ENTITY KCompany
+ SUBTYPE OF (KRoot);
+	Name : KTEXT;
+	Place:KTEXT;
+ INVERSE
+	Completes: SET [1:?] OF KRelParticipate FOR Participant;
+END_ENTITY;
+
+ENTITY KDimension 
+	SUBTYPE OF (KRoot);
+END_ENTITY;
+
+ENTITY KProject  
+	SUBTYPE OF  (KDimension);
+		Name : KTEXT; 
+	INVERSE
+		IsCompletedBy: SET [1:?] OF KRelParticipate FOR Project;
+		Belongs: SET [1:?] OF KRelBelongedToProject FOR Owner;
+END_ENTITY;
+
+ENTITY KDesignElement
+	SUBTYPE OF (KDimension);
+		Name : KTEXT;
+	INVERSE
+		Belongs: SET [1:?] OF KRelBelongedToElement FOR Owner;
+END_ENTITY;
+
+ENTITY KDocument
+	SUBTYPE OF (KRoot);
+		Name:KTEXT;
+		Type:KTEXT;
+		URL: KTEXT;
+	INVERSE
+		IsBelongedToProject: SET [1:?] OF KRelBelongedToProject FOR Documents;
+		IsBelongedToElement: SET [1:?] OF KRelBelongedToElement FOR Documents;
+END_ENTITY;
+
+ENTITY KDrawings  
+	SUBTYPE OF (KDocument);
+END_ENTITY;
+
+END_SCHEMA;
+
+

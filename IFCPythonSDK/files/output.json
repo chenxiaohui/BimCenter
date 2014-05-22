@@ -1,0 +1,1731 @@
+**********************************12**********************************
+{
+    "Edition": "'2004'", 
+    "EditionDate": "#100000", 
+    "Name": "'US Masterformat 2004'", 
+    "Source": "'US Masterformat 2004'", 
+    "inverse": {
+        "Contains": []
+    }, 
+    "type": "IFCCLASSIFICATION"
+}
+**********************************13**********************************
+{
+    "Edition": "'1999'", 
+    "EditionDate": "#100001", 
+    "Name": "'US Uniformat 1999'", 
+    "Source": "'US Uniformat 1999'", 
+    "inverse": {
+        "Contains": []
+    }, 
+    "type": "IFCCLASSIFICATION"
+}
+**********************************14**********************************
+{
+    "Edition": "'2011'", 
+    "EditionDate": "#100002", 
+    "Name": "'US Omniclass 21 2011'", 
+    "Source": "'US Omniclass 21 2011'", 
+    "inverse": {
+        "Contains": []
+    }, 
+    "type": "IFCCLASSIFICATION"
+}
+**********************************15**********************************
+{
+    "Edition": "'2006'", 
+    "EditionDate": "#100003", 
+    "Name": "'US Omniclass 22 2006'", 
+    "Source": "'US Omniclass 22 2006'", 
+    "inverse": {
+        "Contains": []
+    }, 
+    "type": "IFCCLASSIFICATION"
+}
+**********************************16**********************************
+{
+    "Edition": "'2010'", 
+    "EditionDate": "#100004", 
+    "Name": "'US Omniclass 23 2010'", 
+    "Source": "'US Omniclass 23 2010'", 
+    "inverse": {
+        "Contains": []
+    }, 
+    "type": "IFCCLASSIFICATION"
+}
+********************************100000********************************
+{
+    "DayComponent": "15", 
+    "MonthComponent": "11", 
+    "YearComponent": "2004", 
+    "inverse": {}, 
+    "type": "IFCCALENDARDATE"
+}
+********************************100001********************************
+{
+    "DayComponent": "15", 
+    "MonthComponent": "11", 
+    "YearComponent": "1999", 
+    "inverse": {}, 
+    "type": "IFCCALENDARDATE"
+}
+********************************100002********************************
+{
+    "DayComponent": "15", 
+    "MonthComponent": "11", 
+    "YearComponent": "2011", 
+    "inverse": {}, 
+    "type": "IFCCALENDARDATE"
+}
+********************************100003********************************
+{
+    "DayComponent": "15", 
+    "MonthComponent": "11", 
+    "YearComponent": "2006", 
+    "inverse": {}, 
+    "type": "IFCCALENDARDATE"
+}
+********************************100004********************************
+{
+    "DayComponent": "15", 
+    "MonthComponent": "11", 
+    "YearComponent": "2010", 
+    "inverse": {}, 
+    "type": "IFCCALENDARDATE"
+}
+********************************100005********************************
+{
+    "ApplicableOccurrence": "''", 
+    "Description": "'TOILETPAN: Soil appliance for the disposal of excrement. Template'", 
+    "ElementType": "'TOILETPAN: Soil appliance for the disposal of excrement.'", 
+    "GlobalId": "'1SPieHPtyp999D0EQT5999'", 
+    "HasPropertySets": [
+        "#100007", 
+        "#100017", 
+        "#100019", 
+        "#100031", 
+        "#100035", 
+        "#100054", 
+        "#100060", 
+        "#100064", 
+        "#100066"
+    ], 
+    "Name": "'SanitaryTerminal_TOILETPAN_PlumbingFixtures_US'", 
+    "OwnerHistory": "#100006", 
+    "PredefinedType": ".TOILETPAN.", 
+    "RepresentationMaps": [
+        "#100069"
+    ], 
+    "Tag": "'US Product Template Template'", 
+    "inverse": {}, 
+    "type": "IFCSANITARYTERMINALTYPE"
+}
+********************************100006********************************
+{
+    "ChangeAction": ".NOCHANGE.", 
+    "CreationDate": "1312605688", 
+    "LastModifiedDate": 0, 
+    "LastModifyingApplication": [], 
+    "LastModifyingUser": [], 
+    "OwningApplication": "#100118", 
+    "OwningUser": "#100115", 
+    "State": null, 
+    "inverse": {}, 
+    "type": "IFCOWNERHISTORY"
+}
+********************************100007********************************
+{
+    "Description": "'Properties for BuildingElementProxy userdefined Plumbing Fixtures'", 
+    "GlobalId": "'1SPieHPps1999D0EQT5ps4'", 
+    "HasProperties": [
+        "#100008", 
+        "#100010", 
+        "#100011", 
+        "#100012", 
+        "#100013", 
+        "#100015"
+    ], 
+    "Name": "'Pset_PlumbingFixtures_US'", 
+    "OwnerHistory": "#100006", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSET"
+}
+********************************100008********************************
+{
+    "Description": "'Application : Application area or rule'", 
+    "EnumerationReference": "#100009", 
+    "EnumerationValues": [
+        "IFCLABEL('notdefined')"
+    ], 
+    "Name": "'Application'", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATEDVALUE"
+}
+********************************100009********************************
+{
+    "EnumerationValues": [
+        "IFCLABEL('locations_indicated')", 
+        "IFCLABEL('other')", 
+        "IFCLABEL('notdefined')"
+    ], 
+    "Name": "'PEnum_Application'", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATION"
+}
+********************************100010********************************
+{
+    "Description": "'Application : Application area or rule note'", 
+    "Name": "'ApplicationNote'", 
+    "NominalValue": "IFCTEXT('n/a')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100011********************************
+{
+    "Description": "'Sustainability : Sustainability'", 
+    "Name": "'Sustainability'", 
+    "NominalValue": "IFCTEXT('n/a')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100012********************************
+{
+    "Description": "'Manufacturers : Manufacturers'", 
+    "Name": "'Manufacturers'", 
+    "NominalValue": "IFCTEXT('n/a')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100013********************************
+{
+    "Description": "'Reference Standard : Reference Standard'", 
+    "EnumerationReference": "#100014", 
+    "EnumerationValues": [
+        "IFCLABEL('notdefined')"
+    ], 
+    "Name": "'ReferenceStandard'", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATEDVALUE"
+}
+********************************100014********************************
+{
+    "EnumerationValues": [
+        "IFCLABEL('ansi_a117.1')", 
+        "IFCLABEL('other')", 
+        "IFCLABEL('notdefined')"
+    ], 
+    "Name": "'PEnum_ReferenceStandard'", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATION"
+}
+********************************100015********************************
+{
+    "Description": "'Plumbing Fixtures : Plumbing Fixtures'", 
+    "EnumerationReference": "#100016", 
+    "EnumerationValues": [
+        "IFCLABEL('notdefined')"
+    ], 
+    "Name": "'PlumbingFixtures'", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATEDVALUE"
+}
+********************************100016********************************
+{
+    "EnumerationValues": [
+        "IFCLABEL('water_closets_suitable_for_service_required')", 
+        "IFCLABEL('urinals_suitable_for_service_required')", 
+        "IFCLABEL('lavatories_suitable_for_service_required')", 
+        "IFCLABEL('sinks_suitable_for_service_required')", 
+        "IFCLABEL('service_sinks_suitable_for_service_required')", 
+        "IFCLABEL('mop_basins_materials_and_fittings_suitable_for_service_required')", 
+        "IFCLABEL('bathtubs_materials_and_fittings_including_shower_suitable_for_service_required')", 
+        "IFCLABEL('showers_enclosure_material_receptor_material_shower_door_fittings')", 
+        "IFCLABEL('whirlpools_materials_fittings_suitable_for_service_required')", 
+        "IFCLABEL('drinking_fountains_wall_hung_and_pedestal_mounting_fittings')", 
+        "IFCLABEL('water_coolers_ari_100_type_capacity_and_fittings_suitable_for_service_required')", 
+        "IFCLABEL('other')", 
+        "IFCLABEL('notdefined')"
+    ], 
+    "Name": "'PEnum_PlumbingFixtures'", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATION"
+}
+********************************100017********************************
+{
+    "Description": "'Definition from IAI: Common properties for sanitary terminals.'", 
+    "GlobalId": "'1SPieHPps1999D0EQT5ps0'", 
+    "HasProperties": [
+        "#100018"
+    ], 
+    "Name": "'Pset_SanitaryTerminalTypeCommon'", 
+    "OwnerHistory": "#100006", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSET"
+}
+********************************100018********************************
+{
+    "Description": "'Reference ID for this specified type in this project (e.g. type  A-1 ), provided, if there is no classification reference to a recognized classification system used.'", 
+    "Name": "'Reference'", 
+    "NominalValue": "IFCIDENTIFIER('n/a')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100019********************************
+{
+    "Description": "'Definition from IAI: Soil appliance for the disposal of excrement. HISTORY: In IFC2x4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Prefix for color property removed. Datatype of color changed to IfcLabel (still a string value).'", 
+    "GlobalId": "'1SPieHPps1999D0EQT5ps1'", 
+    "HasProperties": [
+        "#100020", 
+        "#100022", 
+        "#100024", 
+        "#100026", 
+        "#100027", 
+        "#100028", 
+        "#100029", 
+        "#100030"
+    ], 
+    "Name": "'Pset_SanitaryTerminalTypeToiletPan'", 
+    "OwnerHistory": "#100006", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSET"
+}
+********************************100020********************************
+{
+    "Description": "'Enumeration that defines the types of toilet (water closet) arrangements that may be specified where:-\n\nBedPanWasher: Enclosed soil appliance in which bedpans and urinal bottles are emptied and cleansed.\nChemical: Portable receptacle or soil appliance that receives and retains excrement in either an integral or a separate container, in which it is chemically treated and from which it has to be emptied periodically.\nCloseCoupled: \tToilet suite in which a flushing cistern is connected directly to the water closet pan.\nLooseCoupled: \tToilet arrangement in which a flushing cistern is connected to the water closet pan through a flushing pipe.\nSlopHopper: \tHopper shaped soil appliance with a flushing rim and outlet similar to those of a toilet pan, into which human excrement is emptied for disposal.'", 
+    "EnumerationReference": "#100021", 
+    "EnumerationValues": [
+        "IFCLABEL('unset')"
+    ], 
+    "Name": "'ToiletType'", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATEDVALUE"
+}
+********************************100021********************************
+{
+    "EnumerationValues": [
+        "IFCLABEL('bedpanwasher')", 
+        "IFCLABEL('chemical')", 
+        "IFCLABEL('closecoupled')", 
+        "IFCLABEL('loosecoupled')", 
+        "IFCLABEL('slophopper')", 
+        "IFCLABEL('other')", 
+        "IFCLABEL('notknown')", 
+        "IFCLABEL('unset')"
+    ], 
+    "Name": "'PEnum_ToiletType'", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATION"
+}
+********************************100022********************************
+{
+    "Description": "'The property enumeration Pset_ToiletPanTypeEnum defines the types of toilet pan that may be specified within the property set Pset_Toilet:-\n\nSiphonic: \tToilet pan in which excrement is removed by siphonage induced by the flushing water.\nSquat: \tToilet pan with an elongated bowl installed with its top edge at or near floor level, so that the user has to squat.\nWashDown: \tToilet pan in which excrement is removed by the momentum of the flushing water.\nWashOut: \tA washdown toilet pan in which excrement falls first into a shallow water filled bowl.'", 
+    "EnumerationReference": "#100023", 
+    "EnumerationValues": [
+        "IFCLABEL('unset')"
+    ], 
+    "Name": "'ToiletPanType'", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATEDVALUE"
+}
+********************************100023********************************
+{
+    "EnumerationValues": [
+        "IFCLABEL('siphonic')", 
+        "IFCLABEL('squat')", 
+        "IFCLABEL('washdown')", 
+        "IFCLABEL('washout')", 
+        "IFCLABEL('other')", 
+        "IFCLABEL('notknown')", 
+        "IFCLABEL('unset')"
+    ], 
+    "Name": "'PEnum_ToiletPanType'", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATION"
+}
+********************************100024********************************
+{
+    "Description": "'The property enumeration Pset_SanitaryMountingEnum defines the forms of mounting or fixing of the sanitary terminal that may be specified within property sets used to define sanitary terminals (WC\u2019s, basins, sinks, etc.) where:-\n\nBackToWall: \tA pedestal mounted sanitary terminal that fits flush to the wall at the rear to cover its service connections.\nPedestal: \tA floor mounted sanitary terminal that has an integral base.\nCounterTop: \tA sanitary terminal that is installed into a horizontal surface that is installed into a horizontal surface. Note: When applied to a wash hand basin, the term more normally used is \u2018vanity\u2019. See also Wash Hand Basin Type specification.\nWallHung: \tA sanitary terminal cantilevered clear of the floor.'", 
+    "EnumerationReference": "#100025", 
+    "EnumerationValues": [
+        "IFCLABEL('unset')"
+    ], 
+    "Name": "'PanMounting'", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATEDVALUE"
+}
+********************************100025********************************
+{
+    "EnumerationValues": [
+        "IFCLABEL('backtowall')", 
+        "IFCLABEL('pedestal')", 
+        "IFCLABEL('countertop')", 
+        "IFCLABEL('wallhung')", 
+        "IFCLABEL('other')", 
+        "IFCLABEL('notknown')", 
+        "IFCLABEL('unset')"
+    ], 
+    "Name": "'PEnum_SanitaryMounting'", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATION"
+}
+********************************100026********************************
+{
+    "Description": "'Color selection for this object'", 
+    "Name": "'Color'", 
+    "NominalValue": "IFCLABEL('n/a')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100027********************************
+{
+    "Description": "'The level at which water spills out of the terminal.'", 
+    "Name": "'SpilloverLevel'", 
+    "NominalValue": "IFCPOSITIVELENGTHMEASURE(0.E-1)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100028********************************
+{
+    "Description": "'Nominal or quoted length of the object.'", 
+    "Name": "'NominalLength'", 
+    "NominalValue": "IFCPOSITIVELENGTHMEASURE(0.E-1)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100029********************************
+{
+    "Description": "'Nominal or quoted width of the object.'", 
+    "Name": "'NominalWidth'", 
+    "NominalValue": "IFCPOSITIVELENGTHMEASURE(0.E-1)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100030********************************
+{
+    "Description": "'Nominal or quoted depth of the object.'", 
+    "Name": "'NominalDepth'", 
+    "NominalValue": "IFCPOSITIVELENGTHMEASURE(0.E-1)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100031********************************
+{
+    "Description": "'Properties for ManufacturerTypeInformation'", 
+    "GlobalId": "'1SPieHPmti999D0EQT5999'", 
+    "HasProperties": [
+        "#100032", 
+        "#100033", 
+        "#100034"
+    ], 
+    "Name": "'Pset_ManufacturerTypeInformation'", 
+    "OwnerHistory": "#100006", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSET"
+}
+********************************100032********************************
+{
+    "Description": "'The name used by the manufacturer'", 
+    "Name": "'ModelReference'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100033********************************
+{
+    "Description": "'The model number assigned by manufacturer.'", 
+    "Name": "'ModelLabel'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100034********************************
+{
+    "Description": "'The organization that manufactured or assembled the item.'", 
+    "Name": "'Manufacturer'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100035********************************
+{
+    "Description": "'Properties for Specification'", 
+    "GlobalId": "'1SPieHPspc999D0EQT5999'", 
+    "HasProperties": [
+        "#100036", 
+        "#100037", 
+        "#100038", 
+        "#100039", 
+        "#100040", 
+        "#100041", 
+        "#100042", 
+        "#100043", 
+        "#100044", 
+        "#100045", 
+        "#100047", 
+        "#100048", 
+        "#100049", 
+        "#100050", 
+        "#100051", 
+        "#100052", 
+        "#100053"
+    ], 
+    "Name": "'Pset_Specification'", 
+    "OwnerHistory": "#100006", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSET"
+}
+********************************100036********************************
+{
+    "Description": "'Accessibility issue(s) which the product satisfies.'", 
+    "Name": "'AccessibilityPerformance'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100037********************************
+{
+    "Description": "'Code Compliance requirement(s) which the product satisfies'", 
+    "Name": "'CodePerformance'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100038********************************
+{
+    "Description": "'Characteristic or primary color of product.'", 
+    "Name": "'Color'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100039********************************
+{
+    "Description": "'Optional constituent features, parts or finishes.'", 
+    "Name": "'Constituents'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100040********************************
+{
+    "Description": "'Location (Uniform Resource Information) for  further product information'", 
+    "Name": "'Documentation'", 
+    "NominalValue": "IFCTEXT('http://www.wbdg.org/unknown.pdf')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100041********************************
+{
+    "Description": "'Location (Uniform Resource Information) for the source or updates to this product information'", 
+    "Name": "'DocumentReference'", 
+    "NominalValue": "IFCTEXT('http://www.wbdg.org/unknown.ifcxml')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100042********************************
+{
+    "Description": "'Features or other important characteristics relevant to product specification.'", 
+    "Name": "'Features'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100043********************************
+{
+    "Description": "'Characteristic or primary finish of product.'", 
+    "Name": "'Finish'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100044********************************
+{
+    "Description": "'Standard grading(s) to which the product corresponds'", 
+    "Name": "'Grade'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100045********************************
+{
+    "Description": "'Nominal height of product, typically the vertical or secondary characteristic dimension.'", 
+    "Name": "'NominalHeight'", 
+    "NominalValue": "IFCLENGTHMEASURE(100.)", 
+    "Unit": "#100046", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100046********************************
+{
+    "Dimensions": [], 
+    "Name": ".METRE.", 
+    "Prefix": ".MILLI.", 
+    "UnitType": ".LENGTHUNIT.", 
+    "inverse": {}, 
+    "type": "IFCSIUNIT"
+}
+********************************100047********************************
+{
+    "Description": "'Nominal length of product, typically the larger or primary horizontal dimension.'", 
+    "Name": "'NominalLength'", 
+    "NominalValue": "IFCLENGTHMEASURE(300.)", 
+    "Unit": "#100046", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100048********************************
+{
+    "Description": "'Characteristic or primary material of product.'", 
+    "Name": "'Material'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100049********************************
+{
+    "Description": "'Reference standard(s) to which the product is compliant.'", 
+    "Name": "'ReferenceStandard'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100050********************************
+{
+    "Description": "'Characteristic shape of product.'", 
+    "Name": "'Shape'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100051********************************
+{
+    "Description": "'Characteristic size of product.'", 
+    "Name": "'Size'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100052********************************
+{
+    "Description": "'Nominal width of product, typically the characteristic or secondary horizontal or characteristic dimension.'", 
+    "Name": "'NominalWidth'", 
+    "NominalValue": "IFCLENGTHMEASURE(200.)", 
+    "Unit": "#100046", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100053********************************
+{
+    "Description": "'Sustainability issue(s) which the product satisfies'", 
+    "Name": "'SustainabilityPerformance'", 
+    "NominalValue": "IFCTEXT('NotDefined')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100054********************************
+{
+    "Description": "'Properties for Economic Impact Values for production'", 
+    "GlobalId": "'1SPieHPeiv999D0EQT5999'", 
+    "HasProperties": [
+        "#100055", 
+        "#100056", 
+        "#100057", 
+        "#100059"
+    ], 
+    "Name": "'Pset_EconomicImpactValues'", 
+    "OwnerHistory": "#100006", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSET"
+}
+********************************100055********************************
+{
+    "Description": "'Method of measurement'", 
+    "Name": "'MethodOfMeasurement'", 
+    "NominalValue": "IFCTEXT('unknown')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100056********************************
+{
+    "Description": "'Specification of process'", 
+    "Name": "'Process'", 
+    "NominalValue": "IFCTEXT('Replacement at service life intervals')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100057********************************
+{
+    "Description": "'Life Cycle Phase as defined in ISO 15978'", 
+    "EnumerationReference": "#100058", 
+    "EnumerationValues": [
+        "IFCLABEL('replacement')"
+    ], 
+    "Name": "'LifeCyclePhase'", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATEDVALUE"
+}
+********************************100058********************************
+{
+    "EnumerationValues": [
+        "IFCLABEL('wholelifecycle')", 
+        "IFCLABEL('cradletosite')", 
+        "IFCLABEL('production')", 
+        "IFCLABEL('growth')", 
+        "IFCLABEL('acquisition')", 
+        "IFCLABEL('productiontransport')", 
+        "IFCLABEL('manufacture')", 
+        "IFCLABEL('procurement')", 
+        "IFCLABEL('transport')", 
+        "IFCLABEL('installation')", 
+        "IFCLABEL('usage')", 
+        "IFCLABEL('operation')", 
+        "IFCLABEL('occupancy')", 
+        "IFCLABEL('maintenance')", 
+        "IFCLABEL('refurbishment')", 
+        "IFCLABEL('replacement')", 
+        "IFCLABEL('repair')", 
+        "IFCLABEL('disposal')", 
+        "IFCLABEL('deconstruction')", 
+        "IFCLABEL('disposaltransport')", 
+        "IFCLABEL('recovery')", 
+        "IFCLABEL('waste')"
+    ], 
+    "Name": "'PEnum_LifeCyclePhase'", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATION"
+}
+********************************100059********************************
+{
+    "Description": "'Cost impact of replacement process'", 
+    "Name": "'Cost'", 
+    "NominalValue": "IFCRATIOMEASURE(0.E-1)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100060********************************
+{
+    "Description": "'Captures the period of time that an artifact will last along with various factors that impact the expected service life.'", 
+    "GlobalId": "'1SPieHPsl1999D0EQT5999'", 
+    "HasProperties": [
+        "#100061", 
+        "#100063"
+    ], 
+    "Name": "'Pset_ServiceLife'", 
+    "OwnerHistory": "#100006", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSET"
+}
+********************************100061********************************
+{
+    "Description": "'The typical service life that is quoted for an artefact under reference operating conditions.'", 
+    "EnumerationReference": "#100062", 
+    "EnumerationValues": [
+        "IFCLABEL('referenceservicelife')"
+    ], 
+    "Name": "'ServiceLifeType'", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATEDVALUE"
+}
+********************************100062********************************
+{
+    "EnumerationValues": [
+        "IFCLABEL('actualservicelife')", 
+        "IFCLABEL('expectedservicelife')", 
+        "IFCLABEL('optimisticreferenceservicelife')", 
+        "IFCLABEL('pessimisticreferenceservicelife')", 
+        "IFCLABEL('referenceservicelife')", 
+        "IFCLABEL('productiontransport')", 
+        "IFCLABEL('other')", 
+        "IFCLABEL('notknown')", 
+        "IFCLABEL('unset')"
+    ], 
+    "Name": "'PEnum_ServiceLifeType'", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATION"
+}
+********************************100063********************************
+{
+    "Description": "'The length or duration of a service life.'", 
+    "Name": "'ServiceLifeDuration'", 
+    "NominalValue": "IFCREAL(0.E-1)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100064********************************
+{
+    "Description": "'Base quantities that are common to the definition of all occurrences of sanitary terminal.'", 
+    "GlobalId": "'1SPieHPeq1999D0EQT5qt1'", 
+    "MethodOfMeasurement": "", 
+    "Name": "'BaseQuantities'", 
+    "OwnerHistory": "#100006", 
+    "Quantities": [
+        "#100065"
+    ], 
+    "inverse": {}, 
+    "type": "IFCELEMENTQUANTITY"
+}
+********************************100065********************************
+{
+    "Description": "'Weight of the element.'", 
+    "Name": "'GrossWeight'", 
+    "Unit": [], 
+    "WeightValue": "0.E-1", 
+    "inverse": {}, 
+    "type": "IFCQUANTITYWEIGHT"
+}
+********************************100066********************************
+{
+    "Description": "'Proprietary properties for IFC Mapping'", 
+    "GlobalId": "'1SPieHPrvt999D0EQT5999'", 
+    "HasProperties": [
+        "#100067", 
+        "#100068"
+    ], 
+    "Name": "'Pset_Revit'", 
+    "OwnerHistory": "#100006", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSET"
+}
+********************************100067********************************
+{
+    "Description": "'Mapping to IFC Type Product'", 
+    "Name": "'IfcExportAs'", 
+    "NominalValue": "IFCTEXT('IfcSanitaryTerminalType')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100068********************************
+{
+    "Description": "'Mapping to IFC Predefined Type'", 
+    "Name": "'IfcExportType'", 
+    "NominalValue": "IFCTEXT('TOILETPAN')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100069********************************
+{
+    "MappedRepresentation": "#100071", 
+    "MappingOrigin": "#100070", 
+    "inverse": {
+        "MapUsage": [
+            100087
+        ]
+    }, 
+    "type": "IFCREPRESENTATIONMAP"
+}
+********************************100070********************************
+{
+    "Axis": "#100077", 
+    "Location": "#100089", 
+    "RefDirection": "#100125", 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+********************************100071********************************
+{
+    "ContextOfItems": "#100072", 
+    "Items": [
+        "#100073"
+    ], 
+    "RepresentationIdentifier": "'Body'", 
+    "RepresentationType": "'SweptSolid'", 
+    "inverse": {
+        "RepresentationMap": [
+            100069
+        ]
+    }, 
+    "type": "IFCSHAPEREPRESENTATION"
+}
+********************************100072********************************
+{
+    "ContextIdentifier": "", 
+    "ContextType": "'Model'", 
+    "CoordinateSpaceDimension": "3", 
+    "Precision": "1.E-8", 
+    "TrueNorth": [], 
+    "WorldCoordinateSystem": "#100070", 
+    "inverse": {
+        "HasSubContexts": [], 
+        "RepresentationsInContext": [
+            100071, 
+            100086
+        ]
+    }, 
+    "type": "IFCGEOMETRICREPRESENTATIONCONTEXT"
+}
+********************************100073********************************
+{
+    "Depth": "800.", 
+    "ExtrudedDirection": "#100077", 
+    "Position": "#100070", 
+    "SweptArea": "#100074", 
+    "inverse": {}, 
+    "type": "IFCEXTRUDEDAREASOLID"
+}
+********************************100074********************************
+{
+    "Position": "#100075", 
+    "ProfileName": "", 
+    "ProfileType": ".AREA.", 
+    "XDim": "400.", 
+    "YDim": "600.", 
+    "inverse": {}, 
+    "type": "IFCRECTANGLEPROFILEDEF"
+}
+********************************100075********************************
+{
+    "Location": "#100076", 
+    "RefDirection": [], 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT2D"
+}
+********************************100076********************************
+{
+    "Coordinates": [
+        "200.", 
+        "300."
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+********************************100077********************************
+{
+    "DirectionRatios": [
+        "0.E-1", 
+        "0.E-1", 
+        "1."
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+********************************100078********************************
+{
+    "Description": "'TOILETPAN: Soil appliance for the disposal of excrement.>  Template'", 
+    "GlobalId": "'1SPieHPocc999D0EQT5999'", 
+    "Name": "'SanitaryTerminal_SanitaryTerminal_TOILETPAN_PlumbingFixtures_US_Instance'", 
+    "ObjectPlacement": "#100079", 
+    "ObjectType": "'TOILETPAN'", 
+    "OwnerHistory": "#100006", 
+    "Representation": "#100085", 
+    "Tag": "'US Product Template Template'", 
+    "inverse": {}, 
+    "type": "IFCFLOWTERMINAL"
+}
+********************************100079********************************
+{
+    "PlacementRelTo": "#100080", 
+    "RelativePlacement": "#100081", 
+    "inverse": {}, 
+    "type": "IFCLOCALPLACEMENT"
+}
+********************************100080********************************
+{
+    "PlacementRelTo": "#100101", 
+    "RelativePlacement": "#100107", 
+    "inverse": {
+        "ReferencedByPlacements": [
+            100079
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+********************************100081********************************
+{
+    "Axis": "#100083", 
+    "Location": "#100082", 
+    "RefDirection": "#100084", 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+********************************100082********************************
+{
+    "Coordinates": [
+        "0.E-1", 
+        "0.E-1", 
+        "0.E-1"
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+********************************100083********************************
+{
+    "DirectionRatios": [
+        "0.E-1", 
+        "0.E-1", 
+        "1."
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+********************************100084********************************
+{
+    "DirectionRatios": [
+        "1.", 
+        "0.E-1", 
+        "0.E-1"
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+********************************100085********************************
+{
+    "Description": "", 
+    "Name": "", 
+    "Representations": [
+        "#100086"
+    ], 
+    "inverse": {
+        "HasShapeAspects": [], 
+        "ShapeOfProduct": []
+    }, 
+    "type": "IFCPRODUCTDEFINITIONSHAPE"
+}
+********************************100086********************************
+{
+    "ContextOfItems": "#100072", 
+    "Items": [
+        "#100087"
+    ], 
+    "RepresentationIdentifier": "'Body'", 
+    "RepresentationType": "'MappedRepresentation'", 
+    "inverse": {
+        "OfProductRepresentation": [
+            100085
+        ]
+    }, 
+    "type": "IFCSHAPEREPRESENTATION"
+}
+********************************100087********************************
+{
+    "MappingSource": "#100069", 
+    "MappingTarget": "#100088", 
+    "inverse": {}, 
+    "type": "IFCMAPPEDITEM"
+}
+********************************100088********************************
+{
+    "Axis1": [], 
+    "Axis2": [], 
+    "Axis3": [], 
+    "LocalOrigin": "#100089", 
+    "Scale": 0.0, 
+    "inverse": {}, 
+    "type": "IFCCARTESIANTRANSFORMATIONOPERATOR3D"
+}
+********************************100089********************************
+{
+    "Coordinates": [
+        "0.E-1", 
+        "0.E-1", 
+        "0.E-1"
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+********************************100090********************************
+{
+    "Description": "'relate Type to Instance'", 
+    "GlobalId": "'1SPieHPdbt999D0EQT5999'", 
+    "Name": "'Type_to_Instance'", 
+    "OwnerHistory": "#100006", 
+    "RelatedObjects": [
+        "#100078"
+    ], 
+    "RelatingType": "#100005", 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYTYPE"
+}
+********************************100091********************************
+{
+    "Description": "'US Product Template'", 
+    "GlobalId": "'1SPieHPprj999D0EQT5999'", 
+    "LongName": "'US Product Template'", 
+    "Name": "'US Product Template'", 
+    "ObjectType": "''", 
+    "OwnerHistory": "#100006", 
+    "Phase": "'design'", 
+    "RepresentationContexts": [
+        "#100072"
+    ], 
+    "UnitsInContext": "#100092", 
+    "inverse": {}, 
+    "type": "IFCPROJECT"
+}
+********************************100092********************************
+{
+    "Units": [
+        "#100046", 
+        "#100093"
+    ], 
+    "inverse": {}, 
+    "type": "IFCUNITASSIGNMENT"
+}
+********************************100093********************************
+{
+    "Dimensions": [], 
+    "Name": ".RADIAN.", 
+    "Prefix": null, 
+    "UnitType": ".PLANEANGLEUNIT.", 
+    "inverse": {}, 
+    "type": "IFCSIUNIT"
+}
+********************************100094********************************
+{
+    "CompositionType": ".ELEMENT.", 
+    "Description": "'Template US Product Template Site'", 
+    "GlobalId": "'1SPieHPsit999D0EQT5999'", 
+    "LandTitleNumber": "", 
+    "LongName": "", 
+    "Name": "'US Product Template Site'", 
+    "ObjectPlacement": "#100095", 
+    "ObjectType": "", 
+    "OwnerHistory": "#100006", 
+    "RefElevation": 0.0, 
+    "RefLatitude": [
+        "24", 
+        "28", 
+        "0"
+    ], 
+    "RefLongitude": [
+        "54", 
+        "25", 
+        "0"
+    ], 
+    "Representation": [], 
+    "SiteAddress": [], 
+    "inverse": {}, 
+    "type": "IFCSITE"
+}
+********************************100095********************************
+{
+    "PlacementRelTo": [], 
+    "RelativePlacement": "#100096", 
+    "inverse": {
+        "ReferencedByPlacements": [
+            100101
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+********************************100096********************************
+{
+    "Axis": "#100098", 
+    "Location": "#100097", 
+    "RefDirection": "#100099", 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+********************************100097********************************
+{
+    "Coordinates": [
+        "0.E-1", 
+        "0.E-1", 
+        "0.E-1"
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+********************************100098********************************
+{
+    "DirectionRatios": [
+        "0.E-1", 
+        "0.E-1", 
+        "1."
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+********************************100099********************************
+{
+    "DirectionRatios": [
+        "1.", 
+        "0.E-1", 
+        "0.E-1"
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+********************************100100********************************
+{
+    "BuildingAddress": [], 
+    "CompositionType": ".ELEMENT.", 
+    "Description": "'US Product Template Building'", 
+    "ElevationOfRefHeight": 0.0, 
+    "ElevationOfTerrain": 0.0, 
+    "GlobalId": "'1SPieHPbui999D0EQT5999'", 
+    "LongName": "", 
+    "Name": "'US Product Template Building'", 
+    "ObjectPlacement": "#100101", 
+    "ObjectType": "", 
+    "OwnerHistory": "#100006", 
+    "Representation": [], 
+    "inverse": {}, 
+    "type": "IFCBUILDING"
+}
+********************************100101********************************
+{
+    "PlacementRelTo": "#100095", 
+    "RelativePlacement": "#100102", 
+    "inverse": {
+        "ReferencedByPlacements": [
+            100080
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+********************************100102********************************
+{
+    "Axis": "#100104", 
+    "Location": "#100103", 
+    "RefDirection": "#100105", 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+********************************100103********************************
+{
+    "Coordinates": [
+        "0.E-1", 
+        "0.E-1", 
+        "0.E-1"
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+********************************100104********************************
+{
+    "DirectionRatios": [
+        "0.E-1", 
+        "0.E-1", 
+        "1."
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+********************************100105********************************
+{
+    "DirectionRatios": [
+        "1.", 
+        "0.E-1", 
+        "0.E-1"
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+********************************100106********************************
+{
+    "CompositionType": ".ELEMENT.", 
+    "Description": "'US Product TemplateBuilding Storey Context'", 
+    "Elevation": "0.E-1", 
+    "GlobalId": "'1SPieHPbst999D0EQT5999'", 
+    "LongName": "", 
+    "Name": "'US Product TemplateBuilding Storey'", 
+    "ObjectPlacement": "#100080", 
+    "ObjectType": "", 
+    "OwnerHistory": "#100006", 
+    "Representation": [], 
+    "inverse": {}, 
+    "type": "IFCBUILDINGSTOREY"
+}
+********************************100107********************************
+{
+    "Axis": "#100109", 
+    "Location": "#100108", 
+    "RefDirection": "#100110", 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+********************************100108********************************
+{
+    "Coordinates": [
+        "0.E-1", 
+        "0.E-1", 
+        "0.E-1"
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+********************************100109********************************
+{
+    "DirectionRatios": [
+        "0.E-1", 
+        "0.E-1", 
+        "1."
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+********************************100110********************************
+{
+    "DirectionRatios": [
+        "1.", 
+        "0.E-1", 
+        "0.E-1"
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+********************************100111********************************
+{
+    "Description": "'BuildingContainer for BuildigStories'", 
+    "GlobalId": "'1SPieHPag1999D0EQT5999'", 
+    "Name": "'BuildingContainer'", 
+    "OwnerHistory": "#100006", 
+    "RelatedObjects": [
+        "#100106"
+    ], 
+    "RelatingObject": "#100100", 
+    "inverse": {}, 
+    "type": "IFCRELAGGREGATES"
+}
+********************************100112********************************
+{
+    "Description": "'SiteContainer For Buildings'", 
+    "GlobalId": "'1SPieHPag2999D0EQT5999'", 
+    "Name": "'SiteContainer'", 
+    "OwnerHistory": "#100006", 
+    "RelatedObjects": [
+        "#100100"
+    ], 
+    "RelatingObject": "#100094", 
+    "inverse": {}, 
+    "type": "IFCRELAGGREGATES"
+}
+********************************100113********************************
+{
+    "Description": "'ProjectContainer for Sites'", 
+    "GlobalId": "'1SPieHPag3999D0EQT5999'", 
+    "Name": "'ProjectContainer'", 
+    "OwnerHistory": "#100006", 
+    "RelatedObjects": [
+        "#100094"
+    ], 
+    "RelatingObject": "#100091", 
+    "inverse": {}, 
+    "type": "IFCRELAGGREGATES"
+}
+********************************100114********************************
+{
+    "Description": "'Template Instance in Building Storey'", 
+    "GlobalId": "'1SPieHPcss999D0EQT5999'", 
+    "Name": "'TemplateInstance-BuildingStorey'", 
+    "OwnerHistory": "#100006", 
+    "RelatedElements": [
+        "#100078"
+    ], 
+    "RelatingStructure": "#100106", 
+    "inverse": {}, 
+    "type": "IFCRELCONTAINEDINSPATIALSTRUCTURE"
+}
+********************************100115********************************
+{
+    "Roles": [], 
+    "TheOrganization": "#100117", 
+    "ThePerson": "#100116", 
+    "inverse": {}, 
+    "type": "IFCPERSONANDORGANIZATION"
+}
+********************************100116********************************
+{
+    "Addresses": [
+        "#100119", 
+        "#100120"
+    ], 
+    "FamilyName": "'WBDG'", 
+    "GivenName": "'Coordinator'", 
+    "Id": "'nibs@nibs.org'", 
+    "MiddleNames": [], 
+    "PrefixTitles": [
+        "'Director'"
+    ], 
+    "Roles": [
+        "#100121"
+    ], 
+    "SuffixTitles": [
+        "'Director of WBDG/CCB'"
+    ], 
+    "inverse": {
+        "EngagedIn": [
+            100115
+        ]
+    }, 
+    "type": "IFCPERSON"
+}
+********************************100117********************************
+{
+    "Addresses": [], 
+    "Description": "'National Institute of Building Sciences'", 
+    "Id": "'nibs@nibs.org'", 
+    "Name": "'NIBS WBDG'", 
+    "Roles": [], 
+    "inverse": {
+        "Engages": [
+            100115
+        ], 
+        "IsRelatedBy": [], 
+        "Relates": []
+    }, 
+    "type": "IFCORGANIZATION"
+}
+********************************100118********************************
+{
+    "ApplicationDeveloper": "#100117", 
+    "ApplicationFullName": "'AEC3_BimServices'", 
+    "ApplicationIdentifier": "'AEC3_BimServices'", 
+    "Version": "'v2011-08-06T03:41:28'", 
+    "inverse": {}, 
+    "type": "IFCAPPLICATION"
+}
+********************************100119********************************
+{
+    "AddressLines": [
+        "'1090 Vermont Avenue NW, Suite 700'"
+    ], 
+    "Country": "'United States'", 
+    "Description": "", 
+    "InternalLocation": "", 
+    "PostalBox": "", 
+    "PostalCode": "'20005'", 
+    "Purpose": null, 
+    "Region": "'DC'", 
+    "Town": "'Washington'", 
+    "UserDefinedPurpose": "", 
+    "inverse": {
+        "OfPerson": [
+            100116
+        ]
+    }, 
+    "type": "IFCPOSTALADDRESS"
+}
+********************************100120********************************
+{
+    "Description": "", 
+    "ElectronicMailAddresses": [
+        "'nibs@nibs.org'"
+    ], 
+    "FacsimileNumbers": [
+        "'+1 202-289-1092'"
+    ], 
+    "PagerNumber": "", 
+    "Purpose": null, 
+    "TelephoneNumbers": [
+        "'+1 202-289-7800'"
+    ], 
+    "UserDefinedPurpose": "", 
+    "WWWHomePageURL": "'http://www.wbdg.org/references/pg_spt.php'", 
+    "inverse": {
+        "OfPerson": [
+            100116
+        ]
+    }, 
+    "type": "IFCTELECOMADDRESS"
+}
+********************************100121********************************
+{
+    "Description": "'Director of WBDG/CCB'", 
+    "Role": ".RESELLER.", 
+    "UserDefinedRole": "", 
+    "inverse": {}, 
+    "type": "IFCACTORROLE"
+}
+********************************100122********************************
+{
+    "DateComponent": "#100123", 
+    "TimeComponent": "#100124", 
+    "inverse": {}, 
+    "type": "IFCDATEANDTIME"
+}
+********************************100123********************************
+{
+    "DayComponent": "6", 
+    "MonthComponent": "8", 
+    "YearComponent": "2011", 
+    "inverse": {}, 
+    "type": "IFCCALENDARDATE"
+}
+********************************100124********************************
+{
+    "DaylightSavingOffset": 0, 
+    "HourComponent": "3", 
+    "MinuteComponent": "41", 
+    "SecondComponent": "28.", 
+    "Zone": [], 
+    "inverse": {}, 
+    "type": "IFCLOCALTIME"
+}
+********************************100125********************************
+{
+    "DirectionRatios": [
+        "1.", 
+        "0.E-1", 
+        "0.E-1"
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+********************************100126********************************
+{
+    "DirectionRatios": [
+        "1.", 
+        "0.E-1"
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+********************************100127********************************
+{
+    "DirectionRatios": [
+        "0.E-1", 
+        "1.", 
+        "0.E-1"
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+********************************100128********************************
+{
+    "Location": "#100089", 
+    "RefDirection": "#100125", 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT2D"
+}
+********************************100129********************************
+{
+    "Description": "'US Masterformat 2004'", 
+    "GlobalId": "'1SPieHPrac999D0EQT5ct1'", 
+    "Name": "'US Masterformat 2004'", 
+    "OwnerHistory": "#100006", 
+    "RelatedObjects": [
+        "#100005"
+    ], 
+    "RelatingClassification": "#100130", 
+    "inverse": {}, 
+    "type": "IFCRELASSOCIATESCLASSIFICATION"
+}
+********************************100130********************************
+{
+    "ItemReference": "'10 28 13 19'", 
+    "Location": "'http://www.US_Masterformat_2004.com/tables#_10_28_13_19'", 
+    "Name": "'Healthcare Toilet Accessories'", 
+    "ReferencedSource": "#12", 
+    "inverse": {}, 
+    "type": "IFCCLASSIFICATIONREFERENCE"
+}
+********************************100131********************************
+{
+    "Description": "'US Uniformat 1999'", 
+    "GlobalId": "'1SPieHPrac999D0EQT5ct2'", 
+    "Name": "'US Uniformat 1999'", 
+    "OwnerHistory": "#100006", 
+    "RelatedObjects": [
+        "#100005"
+    ], 
+    "RelatingClassification": "#100132", 
+    "inverse": {}, 
+    "type": "IFCRELASSOCIATESCLASSIFICATION"
+}
+********************************100132********************************
+{
+    "ItemReference": "'D2034'", 
+    "Location": "'http://www.US_Uniformat_1999.com/tables#_D2034'", 
+    "Name": "'Sanitary Waste Equipment'", 
+    "ReferencedSource": "#13", 
+    "inverse": {}, 
+    "type": "IFCCLASSIFICATIONREFERENCE"
+}
+********************************100133********************************
+{
+    "Description": "'US Omniclass 21 2011'", 
+    "GlobalId": "'1SPieHPrac999D0EQT5ct3'", 
+    "Name": "'US Omniclass 21 2011'", 
+    "OwnerHistory": "#100006", 
+    "RelatedObjects": [
+        "#100005"
+    ], 
+    "RelatingClassification": "#100134", 
+    "inverse": {}, 
+    "type": "IFCRELASSOCIATESCLASSIFICATION"
+}
+********************************100134********************************
+{
+    "ItemReference": "'21-03 10 90 40'", 
+    "Location": "'http://www.US_Omniclass_21_2011.com/tables#_21_03_10_90_40'", 
+    "Name": "'Toilet Bath and Laundry Accessories'", 
+    "ReferencedSource": "#14", 
+    "inverse": {}, 
+    "type": "IFCCLASSIFICATIONREFERENCE"
+}
+********************************100135********************************
+{
+    "Description": "'US Omniclass 22 2006'", 
+    "GlobalId": "'1SPieHPrac999D0EQT5ct4'", 
+    "Name": "'US Omniclass 22 2006'", 
+    "OwnerHistory": "#100006", 
+    "RelatedObjects": [
+        "#100005"
+    ], 
+    "RelatingClassification": "#100136", 
+    "inverse": {}, 
+    "type": "IFCRELASSOCIATESCLASSIFICATION"
+}
+********************************100136********************************
+{
+    "ItemReference": "'22-10 21 13'", 
+    "Location": "'http://www.US_Omniclass_22_2006.com/tables#_22_10_21_13'", 
+    "Name": "'Toilet Compartments'", 
+    "ReferencedSource": "#15", 
+    "inverse": {}, 
+    "type": "IFCCLASSIFICATIONREFERENCE"
+}
+********************************100137********************************
+{
+    "Description": "'US Omniclass 23 2010'", 
+    "GlobalId": "'1SPieHPrac999D0EQT5ct5'", 
+    "Name": "'US Omniclass 23 2010'", 
+    "OwnerHistory": "#100006", 
+    "RelatedObjects": [
+        "#100005"
+    ], 
+    "RelatingClassification": "#100138", 
+    "inverse": {}, 
+    "type": "IFCRELASSOCIATESCLASSIFICATION"
+}
+********************************100138********************************
+{
+    "ItemReference": "'23-31 25 00'", 
+    "Location": "'http://www.US_Omniclass_23_2010.com/tables#_23_31_25_00'", 
+    "Name": "'Toilet and Bath Specialties'", 
+    "ReferencedSource": "#16", 
+    "inverse": {}, 
+    "type": "IFCCLASSIFICATIONREFERENCE"
+}
+********************************100139********************************
+{
+    "Description": "'ManufacturerOccurrence'", 
+    "GlobalId": "'1SPieHPrdp999D0EQT5moc'", 
+    "Name": "'ManufacturerOccurrence'", 
+    "OwnerHistory": "#100006", 
+    "RelatedObjects": [
+        "#100078"
+    ], 
+    "RelatingPropertyDefinition": "#100140", 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+********************************100140********************************
+{
+    "Description": "'Definition from IAI: Defines properties of individual instances of manufactured products that may be given by the manufacturer.\nHISTORY: IFC 2x4: AssemblyPlace property added. This property does not need to be asserted if Pset_ManufacturerTypeInformation is allocated to the type and the AssemblyPlace property is asserted there.'", 
+    "GlobalId": "'1SPieHPps1999D0EQT5ps0'", 
+    "HasProperties": [
+        "#100141", 
+        "#100142", 
+        "#100143", 
+        "#100144", 
+        "#100145"
+    ], 
+    "Name": "'Pset_ManufacturerOccurrence'", 
+    "OwnerHistory": "#100006", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSET"
+}
+********************************100141********************************
+{
+    "Description": "'The date that the manufactured item was purchased.'", 
+    "Name": "'AcquisitionDate'", 
+    "NominalValue": "IFCLABEL('2011-08-06T03:41:28')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100142********************************
+{
+    "Description": "'The identity of the bar code given to an occurrence of the product.'", 
+    "Name": "'BarCode'", 
+    "NominalValue": "IFCIDENTIFIER('n/a')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100143********************************
+{
+    "Description": "'The serial number assigned to an occurrence of a product.'", 
+    "Name": "'SerialNumber'", 
+    "NominalValue": "IFCIDENTIFIER('n/a')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100144********************************
+{
+    "Description": "'The identity of the batch reference from which an occurrence of a product is taken.'", 
+    "Name": "'BatchReference'", 
+    "NominalValue": "IFCIDENTIFIER('n/a')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+********************************100145********************************
+{
+    "Description": "'Enumeration defining where the assembly is intended to take place, either in a factory, other offsite location or on the building site.'", 
+    "EnumerationReference": "#100146", 
+    "EnumerationValues": [
+        "IFCLABEL('unset')"
+    ], 
+    "Name": "'AssemblyPlace'", 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATEDVALUE"
+}
+********************************100146********************************
+{
+    "EnumerationValues": [
+        "IFCLABEL('factory')", 
+        "IFCLABEL('offsite')", 
+        "IFCLABEL('site')", 
+        "IFCLABEL('other')", 
+        "IFCLABEL('notknown')", 
+        "IFCLABEL('unset')"
+    ], 
+    "Name": "'PEnum_AssemblyPlace'", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYENUMERATION"
+}

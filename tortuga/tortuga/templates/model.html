@@ -1,0 +1,65 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div class="hero-unit">
+    <h1>模型{{mid}}</h1>
+    <p>
+
+    {% if form.errors %}
+    <p style="color: red;">
+    Please correct the error{{ form.errors|pluralize }} below.
+    </p>
+    {% endif %}
+    <form enctype="multipart/form-data" method="POST" action="">
+        {{form}}
+        <input  class="btn btn-primary btn-large" type='submit' value='上传'>
+    <a  class="btn btn-primary btn-large" href="/delete/{{mid}}/">删除</a>
+    </form>
+    </p>
+</div>
+
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>哈希</th> 
+                <th>版本</th> 
+                <th>描述</th>  
+                <th>实现层次</th>  
+                <th>模型名</th> 
+                <th>作者</th>  
+                <th>组织</th>  
+                <th>处理器</th>  
+                <th>初始系统</th>  
+                <th>认证</th>  
+                <th>遵循模式</th>  
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for version in versions %}
+            <tr>
+                <td>{{ version.hash }}</td>
+                <td>{{ version.version }}</td> 
+                <td>{{ version.description }}</td> 
+                <td>{{ version.implementationLevel }}</td>
+                <td>{{ version.name }}</td>
+                <td>{{ version.author }}</td>
+                <td>{{ version.organization }}</td>
+                <td>{{ version.preprocessorVersion }}</td>
+                <td>{{ version.originatingSystem }}</td>
+                <td>{{ version.authorization }}</td>
+                <td>{{ version.schemaIdentifiers }}</td>
+                <td>
+                    <a class="btn btn-primary" href='#'> 下载 </a> 
+                    <a class="btn btn-primary" href='/delete/{{mid}}/{{version.version}}/'> 删除 </a>
+                    <a class="btn btn-primary" href='/model/{{mid}}/{{version.version}}/'> 详细 </a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
+

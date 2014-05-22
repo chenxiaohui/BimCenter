@@ -1,0 +1,4539 @@
+**********************************1***********************************
+{
+    "Addresses": null, 
+    "Description": null, 
+    "Id": null, 
+    "Name": "Autodesk Revit Architecture 2011", 
+    "Roles": null, 
+    "inverse": {
+        "Engages": [], 
+        "IsRelatedBy": [], 
+        "Relates": []
+    }, 
+    "type": "IFCORGANIZATION"
+}
+**********************************2***********************************
+{
+    "ApplicationDeveloper": 1, 
+    "ApplicationFullName": "Autodesk Revit Architecture 2011", 
+    "ApplicationIdentifier": "Revit", 
+    "Version": "2011", 
+    "inverse": {}, 
+    "type": "IFCAPPLICATION"
+}
+**********************************3***********************************
+{
+    "Coordinates": [
+        0.0, 
+        0.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************4***********************************
+{
+    "Coordinates": [
+        0.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************5***********************************
+{
+    "DirectionRatios": [
+        1.0, 
+        0.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+**********************************6***********************************
+{
+    "DirectionRatios": [
+        -1.0, 
+        0.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+**********************************7***********************************
+{
+    "DirectionRatios": [
+        0.0, 
+        1.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+**********************************8***********************************
+{
+    "DirectionRatios": [
+        0.0, 
+        -1.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+**********************************9***********************************
+{
+    "DirectionRatios": [
+        0.0, 
+        0.0, 
+        1.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+**********************************10**********************************
+{
+    "DirectionRatios": [
+        0.0, 
+        0.0, 
+        -1.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+**********************************11**********************************
+{
+    "DirectionRatios": [
+        1.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+**********************************12**********************************
+{
+    "DirectionRatios": [
+        -1.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+**********************************13**********************************
+{
+    "DirectionRatios": [
+        0.0, 
+        1.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+**********************************14**********************************
+{
+    "DirectionRatios": [
+        0.0, 
+        -1.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCDIRECTION"
+}
+**********************************15**********************************
+{
+    "Dimensions": null, 
+    "Name": ".METRE.", 
+    "Prefix": ".MILLI.", 
+    "UnitType": ".LENGTHUNIT.", 
+    "inverse": {}, 
+    "type": "IFCSIUNIT"
+}
+**********************************16**********************************
+{
+    "Dimensions": null, 
+    "Name": ".SQUARE_METRE.", 
+    "Prefix": ".MILLI.", 
+    "UnitType": ".AREAUNIT.", 
+    "inverse": {}, 
+    "type": "IFCSIUNIT"
+}
+**********************************17**********************************
+{
+    "Dimensions": null, 
+    "Name": ".CUBIC_METRE.", 
+    "Prefix": ".MILLI.", 
+    "UnitType": ".VOLUMEUNIT.", 
+    "inverse": {}, 
+    "type": "IFCSIUNIT"
+}
+**********************************18**********************************
+{
+    "Dimensions": null, 
+    "Name": ".RADIAN.", 
+    "Prefix": null, 
+    "UnitType": ".PLANEANGLEUNIT.", 
+    "inverse": {}, 
+    "type": "IFCSIUNIT"
+}
+**********************************19**********************************
+{
+    "AmountOfSubstanceExponent": 0, 
+    "ElectricCurrentExponent": 0, 
+    "LengthExponent": 0, 
+    "LuminousIntensityExponent": 0, 
+    "MassExponent": 0, 
+    "ThermodynamicTemperatureExponent": 0, 
+    "TimeExponent": 0, 
+    "inverse": {}, 
+    "type": "IFCDIMENSIONALEXPONENTS"
+}
+**********************************20**********************************
+{
+    "UnitComponent": "#18", 
+    "ValueComponent": "IFCRATIOMEASURE(0.01745329251994328)", 
+    "inverse": {}, 
+    "type": "IFCMEASUREWITHUNIT"
+}
+**********************************21**********************************
+{
+    "ConversionFactor": 20, 
+    "Dimensions": 19, 
+    "Name": "DEGREE", 
+    "UnitType": ".PLANEANGLEUNIT.", 
+    "inverse": {}, 
+    "type": "IFCCONVERSIONBASEDUNIT"
+}
+**********************************22**********************************
+{
+    "Dimensions": null, 
+    "Name": ".SECOND.", 
+    "Prefix": null, 
+    "UnitType": ".TIMEUNIT.", 
+    "inverse": {}, 
+    "type": "IFCSIUNIT"
+}
+**********************************23**********************************
+{
+    "Units": [
+        "#15", 
+        "#16", 
+        "#17", 
+        "#21", 
+        "#22"
+    ], 
+    "inverse": {}, 
+    "type": "IFCUNITASSIGNMENT"
+}
+**********************************24**********************************
+{
+    "Axis": null, 
+    "Location": 3, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+**********************************25**********************************
+{
+    "PlacementRelTo": 329, 
+    "RelativePlacement": "#24", 
+    "inverse": {
+        "PlacesObject": [
+            36
+        ], 
+        "ReferencedByPlacements": [
+            38, 
+            46
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+**********************************26**********************************
+{
+    "Axis": null, 
+    "Location": 3, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+**********************************27**********************************
+{
+    "ContextIdentifier": null, 
+    "ContextType": "Model", 
+    "CoordinateSpaceDimension": 3, 
+    "Precision": 1e-06, 
+    "TrueNorth": null, 
+    "WorldCoordinateSystem": "#26", 
+    "inverse": {
+        "HasSubContexts": [], 
+        "RepresentationsInContext": [
+            53, 
+            77, 
+            133, 
+            153, 
+            179, 
+            199, 
+            225, 
+            244, 
+            281
+        ]
+    }, 
+    "type": "IFCGEOMETRICREPRESENTATIONCONTEXT"
+}
+**********************************28**********************************
+{
+    "ContextIdentifier": null, 
+    "ContextType": "Plan", 
+    "CoordinateSpaceDimension": 3, 
+    "Precision": 1e-06, 
+    "TrueNorth": null, 
+    "WorldCoordinateSystem": "#26", 
+    "inverse": {
+        "HasSubContexts": [
+            29
+        ]
+    }, 
+    "type": "IFCGEOMETRICREPRESENTATIONCONTEXT"
+}
+**********************************29**********************************
+{
+    "ContextIdentifier": null, 
+    "ContextType": "Plan", 
+    "CoordinateSpaceDimension": null, 
+    "ParentContext": 28, 
+    "Precision": null, 
+    "TargetScale": 0.01, 
+    "TargetView": ".PLAN_VIEW.", 
+    "TrueNorth": null, 
+    "UserDefinedTargetView": null, 
+    "WorldCoordinateSystem": null, 
+    "inverse": {
+        "RepresentationsInContext": [
+            123, 
+            323
+        ]
+    }, 
+    "type": "IFCGEOMETRICREPRESENTATIONSUBCONTEXT"
+}
+**********************************30**********************************
+{
+    "Addresses": null, 
+    "FamilyName": null, 
+    "GivenName": "a", 
+    "Id": null, 
+    "MiddleNames": null, 
+    "PrefixTitles": null, 
+    "Roles": null, 
+    "SuffixTitles": null, 
+    "inverse": {
+        "EngagedIn": [
+            32
+        ]
+    }, 
+    "type": "IFCPERSON"
+}
+**********************************31**********************************
+{
+    "Addresses": null, 
+    "Description": "", 
+    "Id": null, 
+    "Name": "", 
+    "Roles": null, 
+    "inverse": {
+        "Engages": [
+            32
+        ], 
+        "IsRelatedBy": [], 
+        "Relates": []
+    }, 
+    "type": "IFCORGANIZATION"
+}
+**********************************32**********************************
+{
+    "Roles": null, 
+    "TheOrganization": 31, 
+    "ThePerson": 30, 
+    "inverse": {}, 
+    "type": "IFCPERSONANDORGANIZATION"
+}
+**********************************33**********************************
+{
+    "ChangeAction": ".NOCHANGE.", 
+    "CreationDate": 0, 
+    "LastModifiedDate": null, 
+    "LastModifyingApplication": null, 
+    "LastModifyingUser": null, 
+    "OwningApplication": 2, 
+    "OwningUser": 32, 
+    "State": null, 
+    "inverse": {}, 
+    "type": "IFCOWNERHISTORY"
+}
+**********************************34**********************************
+{
+    "Description": null, 
+    "GlobalId": "2Gt9cKC6XCEgrd8DA63CDu", 
+    "LongName": "", 
+    "Name": "", 
+    "ObjectType": null, 
+    "OwnerHistory": 33, 
+    "Phase": "", 
+    "RepresentationContexts": [
+        27, 
+        28
+    ], 
+    "UnitsInContext": 23, 
+    "inverse": {
+        "IsDecomposedBy": [
+            331
+        ]
+    }, 
+    "type": "IFCPROJECT"
+}
+**********************************35**********************************
+{
+    "AddressLines": [
+        ""
+    ], 
+    "Country": "", 
+    "Description": null, 
+    "InternalLocation": null, 
+    "PostalBox": null, 
+    "PostalCode": "", 
+    "Purpose": null, 
+    "Region": "", 
+    "Town": "", 
+    "UserDefinedPurpose": null, 
+    "inverse": {}, 
+    "type": "IFCPOSTALADDRESS"
+}
+**********************************36**********************************
+{
+    "BuildingAddress": 35, 
+    "CompositionType": ".ELEMENT.", 
+    "Description": null, 
+    "ElevationOfRefHeight": null, 
+    "ElevationOfTerrain": null, 
+    "GlobalId": "2Gt9cKC6XCEgrd8DA63CDv", 
+    "LongName": null, 
+    "Name": null, 
+    "ObjectPlacement": 25, 
+    "ObjectType": null, 
+    "OwnerHistory": 33, 
+    "Representation": null, 
+    "inverse": {
+        "Decomposes": [
+            332
+        ], 
+        "IsDecomposedBy": [
+            357
+        ], 
+        "IsDefinedBy": [
+            360
+        ]
+    }, 
+    "type": "IFCBUILDING"
+}
+**********************************37**********************************
+{
+    "Axis": null, 
+    "Location": 3, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+**********************************38**********************************
+{
+    "PlacementRelTo": 25, 
+    "RelativePlacement": "#37", 
+    "inverse": {
+        "PlacesObject": [
+            39
+        ], 
+        "ReferencedByPlacements": [
+            50, 
+            130, 
+            176, 
+            222
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+**********************************39**********************************
+{
+    "CompositionType": ".ELEMENT.", 
+    "Description": null, 
+    "Elevation": 0.0, 
+    "GlobalId": "2Gt9cKC6XCEgrd8D9vypcR", 
+    "LongName": null, 
+    "Name": "\\X\\B1\\X\\EA\\X\\B8\\X\\DF 1", 
+    "ObjectPlacement": 38, 
+    "ObjectType": null, 
+    "OwnerHistory": 33, 
+    "Representation": null, 
+    "inverse": {
+        "ContainsElements": [
+            349
+        ], 
+        "Decomposes": [
+            357
+        ], 
+        "IsDefinedBy": [
+            343, 
+            345, 
+            366, 
+            367, 
+            368
+        ]
+    }, 
+    "type": "IFCBUILDINGSTOREY"
+}
+**********************************40**********************************
+{
+    "Coordinates": [
+        0.0, 
+        0.0, 
+        4000.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************41**********************************
+{
+    "Axis": null, 
+    "Location": 40, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+**********************************44**********************************
+{
+    "Coordinates": [
+        0.0, 
+        0.0, 
+        3200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************45**********************************
+{
+    "Axis": null, 
+    "Location": 44, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+**********************************46**********************************
+{
+    "PlacementRelTo": 25, 
+    "RelativePlacement": "#45", 
+    "inverse": {
+        "PlacesObject": [
+            47
+        ], 
+        "ReferencedByPlacements": [
+            266
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+**********************************47**********************************
+{
+    "CompositionType": ".ELEMENT.", 
+    "Description": null, 
+    "Elevation": 3200.0, 
+    "GlobalId": "2Gt9cKC6XCEgrd8D9vyoTX", 
+    "LongName": null, 
+    "Name": "\\X\\B1\\X\\EA\\X\\B8\\X\\DF 4", 
+    "ObjectPlacement": 46, 
+    "ObjectType": null, 
+    "OwnerHistory": 33, 
+    "Representation": null, 
+    "inverse": {
+        "ContainsElements": [
+            356
+        ], 
+        "Decomposes": [
+            357
+        ], 
+        "IsDefinedBy": [
+            353, 
+            355, 
+            366, 
+            367, 
+            368
+        ]
+    }, 
+    "type": "IFCBUILDINGSTOREY"
+}
+**********************************48**********************************
+{
+    "Coordinates": [
+        650.6849315068482, 
+        4514.38356164384, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************49**********************************
+{
+    "Axis": 9, 
+    "Location": 48, 
+    "RefDirection": 8, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+**********************************50**********************************
+{
+    "PlacementRelTo": 38, 
+    "RelativePlacement": "#49", 
+    "inverse": {
+        "PlacesObject": [
+            79
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+**********************************51**********************************
+{
+    "Coordinates": [
+        4800.0, 
+        -0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************52**********************************
+{
+    "Points": [
+        4, 
+        51
+    ], 
+    "inverse": {}, 
+    "type": "IFCPOLYLINE"
+}
+**********************************53**********************************
+{
+    "ContextOfItems": 27, 
+    "Items": [
+        52
+    ], 
+    "RepresentationIdentifier": "Axis", 
+    "RepresentationType": "Curve2D", 
+    "inverse": {
+        "LayerAssignments": [
+            381
+        ], 
+        "OfProductRepresentation": [
+            78
+        ]
+    }, 
+    "type": "IFCSHAPEREPRESENTATION"
+}
+**********************************54**********************************
+{
+    "Coordinates": [
+        2400.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************55**********************************
+{
+    "Location": 54, 
+    "RefDirection": 12, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT2D"
+}
+**********************************56**********************************
+{
+    "Position": 55, 
+    "ProfileName": null, 
+    "ProfileType": ".AREA.", 
+    "XDim": 4800.000000000006, 
+    "YDim": 200.0, 
+    "inverse": {}, 
+    "type": "IFCRECTANGLEPROFILEDEF"
+}
+**********************************57**********************************
+{
+    "Axis": null, 
+    "Location": 3, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+**********************************58**********************************
+{
+    "Depth": 4000.0, 
+    "ExtrudedDirection": 9, 
+    "Position": 57, 
+    "SweptArea": 56, 
+    "inverse": {
+        "StyledByItem": [
+            63
+        ]
+    }, 
+    "type": "IFCEXTRUDEDAREASOLID"
+}
+**********************************59**********************************
+{
+    "Blue": 0.4980392156862745, 
+    "Green": 0.4980392156862745, 
+    "Name": null, 
+    "Red": 0.4980392156862745, 
+    "inverse": {}, 
+    "type": "IFCCOLOURRGB"
+}
+**********************************60**********************************
+{
+    "DiffuseColour": null, 
+    "DiffuseTransmissionColour": null, 
+    "ReflectanceMethod": ".NOTDEFINED.", 
+    "ReflectionColour": null, 
+    "SpecularColour": "IFCNORMALISEDRATIOMEASURE(0.00390625)", 
+    "SpecularHighlight": "IFCSPECULAREXPONENT(64.)", 
+    "SurfaceColour": 59, 
+    "TransmissionColour": null, 
+    "Transparency": 0.0, 
+    "inverse": {}, 
+    "type": "IFCSURFACESTYLERENDERING"
+}
+**********************************61**********************************
+{
+    "Name": "\\X\\C4\\X\\AC\\X\\C8\\X\\CF\\X\\C7\\X\\BD", 
+    "Side": ".BOTH.", 
+    "Styles": [
+        "#60"
+    ], 
+    "inverse": {}, 
+    "type": "IFCSURFACESTYLE"
+}
+**********************************62**********************************
+{
+    "Styles": [
+        "#61"
+    ], 
+    "inverse": {}, 
+    "type": "IFCPRESENTATIONSTYLEASSIGNMENT"
+}
+**********************************63**********************************
+{
+    "Item": 58, 
+    "Name": null, 
+    "Styles": [
+        62
+    ], 
+    "inverse": {}, 
+    "type": "IFCSTYLEDITEM"
+}
+**********************************64**********************************
+{
+    "Coordinates": [
+        4800.0, 
+        -0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************65**********************************
+{
+    "Coordinates": [
+        4800.0, 
+        200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************66**********************************
+{
+    "Coordinates": [
+        4600.0, 
+        200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************67**********************************
+{
+    "Coordinates": [
+        200.0, 
+        200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************68**********************************
+{
+    "Coordinates": [
+        0.0, 
+        200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************69**********************************
+{
+    "Points": [
+        4, 
+        64, 
+        65, 
+        66, 
+        67, 
+        68, 
+        4
+    ], 
+    "inverse": {}, 
+    "type": "IFCPOLYLINE"
+}
+**********************************70**********************************
+{
+    "Coordinates": [
+        0.0, 
+        -100.0, 
+        3200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************71**********************************
+{
+    "Axis": 9, 
+    "Location": 70, 
+    "RefDirection": 7, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+**********************************72**********************************
+{
+    "Position": 71, 
+    "inverse": {}, 
+    "type": "IFCPLANE"
+}
+**********************************73**********************************
+{
+    "Coordinates": [
+        0.0, 
+        -100.0, 
+        3200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+**********************************74**********************************
+{
+    "Axis": null, 
+    "Location": 73, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+**********************************75**********************************
+{
+    "AgreementFlag": false, 
+    "BaseSurface": 72, 
+    "PolygonalBoundary": 69, 
+    "Position": 74, 
+    "inverse": {}, 
+    "type": "IFCPOLYGONALBOUNDEDHALFSPACE"
+}
+**********************************76**********************************
+{
+    "FirstOperand": "#58", 
+    "Operator": ".DIFFERENCE.", 
+    "SecondOperand": "#75", 
+    "inverse": {}, 
+    "type": "IFCBOOLEANCLIPPINGRESULT"
+}
+**********************************77**********************************
+{
+    "ContextOfItems": 27, 
+    "Items": [
+        76
+    ], 
+    "RepresentationIdentifier": "Body", 
+    "RepresentationType": "Clipping", 
+    "inverse": {
+        "LayerAssignments": [
+            381
+        ], 
+        "OfProductRepresentation": [
+            78
+        ]
+    }, 
+    "type": "IFCSHAPEREPRESENTATION"
+}
+**********************************78**********************************
+{
+    "Description": null, 
+    "Name": null, 
+    "Representations": [
+        53, 
+        77
+    ], 
+    "inverse": {
+        "HasShapeAspects": [], 
+        "ShapeOfProduct": [
+            79
+        ]
+    }, 
+    "type": "IFCPRODUCTDEFINITIONSHAPE"
+}
+**********************************79**********************************
+{
+    "Description": null, 
+    "GlobalId": "2IG2vFkmL2xREpSneDGPop", 
+    "Name": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1:2249", 
+    "ObjectPlacement": 50, 
+    "ObjectType": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1:1320", 
+    "OwnerHistory": 33, 
+    "Representation": 78, 
+    "Tag": "2249", 
+    "inverse": {
+        "ConnectedTo": [
+            375, 
+            376, 
+            379
+        ], 
+        "ContainedInStructure": [
+            349
+        ], 
+        "HasAssociations": [
+            361
+        ], 
+        "IsDefinedBy": [
+            85, 
+            110, 
+            112, 
+            114, 
+            116, 
+            369, 
+            370, 
+            371
+        ]
+    }, 
+    "type": "IFCWALLSTANDARDCASE"
+}
+**********************************80**********************************
+{
+    "Description": null, 
+    "Name": "Reference", 
+    "NominalValue": "IFCLABEL('\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************81**********************************
+{
+    "Description": null, 
+    "Name": "LoadBearing", 
+    "NominalValue": "IFCBOOLEAN(.F.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************82**********************************
+{
+    "Description": null, 
+    "Name": "ExtendToStructure", 
+    "NominalValue": "IFCBOOLEAN(.T.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************83**********************************
+{
+    "Description": null, 
+    "Name": "IsExternal", 
+    "NominalValue": "IFCBOOLEAN(.T.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************84**********************************
+{
+    "Description": null, 
+    "GlobalId": "2WfqNTBe9ABQOb$3VnU5LS", 
+    "HasProperties": [
+        80, 
+        81, 
+        82, 
+        83
+    ], 
+    "Name": "Pset_WallCommon", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            85
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+**********************************85**********************************
+{
+    "Description": null, 
+    "GlobalId": "2myuL8KZTCpBl1C9_HN8Pc", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        79
+    ], 
+    "RelatingPropertyDefinition": 84, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+**********************************86**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B6\\X\\A8\\X\\CE\\X\\BB\\X\\CF\\X\\DF", 
+    "NominalValue": "IFCINTEGER(0)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************87**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B4\\X\\B4\\X\\BD\\X\\A8\\X\\B5\\X\\C4\\X\\BD\\X\\D7\\X\\B6\\X\\CE", 
+    "NominalValue": "IFCLABEL('\\X\\D0\\X\\C2\\X\\B9\\X\\B9\\X\\D4\\X\\EC')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************88**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\BB\\X\\F9\\X\\D7\\X\\BC\\X\\CF\\X\\DE\\X\\D6\\X\\C6\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "NominalValue": "IFCLABEL('\\X\\B1\\X\\EA\\X\\B8\\X\\DF 1')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************89**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B5\\X\\D7\\X\\B2\\X\\BF\\X\\C6\\X\\AB\\X\\D2\\X\\C6", 
+    "NominalValue": "IFCLENGTHMEASURE(0.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************90**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\D2\\X\\D1\\X\\B8\\X\\BD\\X\\D7\\X\\C5\\X\\B5\\X\\D7\\X\\B2\\X\\BF", 
+    "NominalValue": "IFCBOOLEAN(.F.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************91**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B5\\X\\D7\\X\\B2\\X\\BF\\X\\D1\\X\\D3\\X\\C9\\X\\EC\\X\\BE\\X\\E0\\X\\C0\\X\\EB", 
+    "NominalValue": "IFCLENGTHMEASURE(0.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************92**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\BD\\X\\E1\\X\\B9\\X\\B9\\X\\D3\\X\\C3\\X\\CD\\X\\BE", 
+    "NominalValue": "IFCINTEGER(0)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************93**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\CE\\X\\DE\\X\\C1\\X\\AC\\X\\BD\\X\\D3\\X\\B8\\X\\DF\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(4000.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************94**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B6\\X\\A5\\X\\B2\\X\\BF\\X\\C6\\X\\AB\\X\\D2\\X\\C6", 
+    "NominalValue": "IFCLENGTHMEASURE(0.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************95**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\D2\\X\\D1\\X\\B8\\X\\BD\\X\\D7\\X\\C5\\X\\B6\\X\\A5\\X\\B2\\X\\BF", 
+    "NominalValue": "IFCBOOLEAN(.T.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************96**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B6\\X\\A5\\X\\B2\\X\\BF\\X\\D1\\X\\D3\\X\\C9\\X\\EC\\X\\BE\\X\\E0\\X\\C0\\X\\EB", 
+    "NominalValue": "IFCLENGTHMEASURE(0.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************97**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B7\\X\\BF\\X\\BC\\X\\E4\\X\\B1\\X\\DF\\X\\BD\\X\\E7", 
+    "NominalValue": "IFCBOOLEAN(.T.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************98**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B3\\X\\A4\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(4600.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+**********************************99**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\C3\\X\\E6\\X\\BB\\X\\FD", 
+    "NominalValue": "IFCAREAMEASURE(15360000.00000002)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************100**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\CC\\X\\E5\\X\\BB\\X\\FD", 
+    "NominalValue": "IFCVOLUMEMEASURE(3072000000.000003)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************101**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\D3\\X\\EB\\X\\CC\\X\\E5\\X\\C1\\X\\BF\\X\\CF\\X\\E0\\X\\B9\\X\\D8", 
+    "NominalValue": "IFCBOOLEAN(.F.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************102**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B4\\X\\D6\\X\\C2\\X\\D4\\X\\B1\\X\\C8\\X\\C0\\X\\FD\\X\\CC\\X\\EE\\X\\B3\\X\\E4\\X\\D1\\X\\D5\\X\\C9\\X\\AB", 
+    "NominalValue": "IFCINTEGER(0)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************103**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\D4\\X\\DA\\X\\B2\\X\\E5\\X\\C8\\X\\EB\\X\\B5\\X\\E3\\X\\B0\\X\\FC\\X\\C2\\X\\E7", 
+    "NominalValue": "IFCINTEGER(0)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************104**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\D4\\X\\DA\\X\\B6\\X\\CB\\X\\B5\\X\\E3\\X\\B0\\X\\FC\\X\\C2\\X\\E7", 
+    "NominalValue": "IFCINTEGER(0)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************105**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\BF\\X\\ED\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(200.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************106**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B2\\X\\BF\\X\\BC\\X\\FE\\X\\CB\\X\\B5\\X\\C3\\X\\F7", 
+    "NominalValue": "IFCLABEL('')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************107**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B2\\X\\BF\\X\\BC\\X\\FE\\X\\B4\\X\\FA\\X\\C2\\X\\EB", 
+    "NominalValue": "IFCLABEL('')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************108**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B9\\X\\A6\\X\\C4\\X\\DC", 
+    "NominalValue": "IFCINTEGER(1)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************109**********************************
+{
+    "Description": null, 
+    "GlobalId": "2Wxa6$CEH2x8ZbDnAlMjmq", 
+    "HasProperties": [
+        86, 
+        88, 
+        89, 
+        90, 
+        91, 
+        93, 
+        94, 
+        95, 
+        96, 
+        97, 
+        101
+    ], 
+    "Name": "PSet_Revit_\\X\\CF\\X\\DE\\X\\D6\\X\\C6\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            110
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************110**********************************
+{
+    "Description": null, 
+    "GlobalId": "1$k8Ef5Pr7IhzE$r5gG6Eq", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        79
+    ], 
+    "RelatingPropertyDefinition": 109, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************111**********************************
+{
+    "Description": null, 
+    "GlobalId": "2lebnYsF9BdBMERQIMIeWY", 
+    "HasProperties": [
+        87
+    ], 
+    "Name": "PSet_Revit_\\X\\BD\\X\\D7\\X\\B6\\X\\CE\\X\\BB\\X\\AF", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            112
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************112**********************************
+{
+    "Description": null, 
+    "GlobalId": "30cbCpKwn9W9BxY3lFOO7T", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        79
+    ], 
+    "RelatingPropertyDefinition": 111, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************113**********************************
+{
+    "Description": null, 
+    "GlobalId": "3CqDnqBUz8_RE3oR5Pv0fX", 
+    "HasProperties": [
+        92
+    ], 
+    "Name": "PSet_Revit_\\X\\BD\\X\\E1\\X\\B9\\X\\B9", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            114
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************114**********************************
+{
+    "Description": null, 
+    "GlobalId": "32x3ne0qr9Exf8fHLqRsRz", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        79
+    ], 
+    "RelatingPropertyDefinition": 113, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************115**********************************
+{
+    "Description": null, 
+    "GlobalId": "2ki0s2gOrF29e64Ze4jNDN", 
+    "HasProperties": [
+        98, 
+        99, 
+        100
+    ], 
+    "Name": "PSet_Revit_\\X\\B3\\X\\DF\\X\\B4\\X\\E7\\X\\B1\\X\\EA\\X\\D7\\X\\A2", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            116
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************116**********************************
+{
+    "Description": null, 
+    "GlobalId": "1wxQfryjj4I9uckS0kGxcZ", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        79
+    ], 
+    "RelatingPropertyDefinition": 115, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************117**********************************
+{
+    "Description": null, 
+    "GlobalId": "15pMKitEf9xec8ugSQ4SoX", 
+    "HasProperties": [
+        103, 
+        104, 
+        105, 
+        108
+    ], 
+    "Name": "PSet_Revit_Type_\\X\\B9\\X\\B9\\X\\D4\\X\\EC", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            369
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************118**********************************
+{
+    "Description": null, 
+    "GlobalId": "0xa$7Gfon81AuUnL0Q$pQM", 
+    "HasProperties": [
+        102
+    ], 
+    "Name": "PSet_Revit_Type_\\X\\CD\\X\\BC\\X\\D0\\X\\CE", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            370
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************119**********************************
+{
+    "Description": null, 
+    "GlobalId": "0jHhrUbGPENuX2BfUpjWfK", 
+    "HasProperties": [
+        106, 
+        107
+    ], 
+    "Name": "PSet_Revit_Type_\\X\\B1\\X\\EA\\X\\CA\\X\\B6\\X\\CA\\X\\FD\\X\\BE\\X\\DD", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            371
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************120**********************************
+{
+    "Name": "\\X\\C4\\X\\AC\\X\\C8\\X\\CF\\X\\C7\\X\\BD", 
+    "inverse": {
+        "ClassifiedAs": [], 
+        "HasRepresentation": [
+            124
+        ]
+    }, 
+    "type": "IFCMATERIAL"
+}
+*********************************121**********************************
+{
+    "Styles": [
+        "#61"
+    ], 
+    "inverse": {}, 
+    "type": "IFCPRESENTATIONSTYLEASSIGNMENT"
+}
+*********************************122**********************************
+{
+    "Item": null, 
+    "Name": null, 
+    "Styles": [
+        121
+    ], 
+    "inverse": {}, 
+    "type": "IFCSTYLEDITEM"
+}
+*********************************123**********************************
+{
+    "ContextOfItems": 29, 
+    "Items": [
+        122
+    ], 
+    "RepresentationIdentifier": "Style", 
+    "RepresentationType": "Material", 
+    "inverse": {
+        "OfProductRepresentation": [
+            124
+        ]
+    }, 
+    "type": "IFCSTYLEDREPRESENTATION"
+}
+*********************************124**********************************
+{
+    "Description": null, 
+    "Name": null, 
+    "Representations": [
+        123
+    ], 
+    "RepresentedMaterial": 120, 
+    "inverse": {}, 
+    "type": "IFCMATERIALDEFINITIONREPRESENTATION"
+}
+*********************************125**********************************
+{
+    "IsVentilated": null, 
+    "LayerThickness": 200.0, 
+    "Material": 120, 
+    "inverse": {
+        "ToMaterialLayerSet": [
+            126
+        ]
+    }, 
+    "type": "IFCMATERIALLAYER"
+}
+*********************************126**********************************
+{
+    "LayerSetName": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1", 
+    "MaterialLayers": [
+        125
+    ], 
+    "inverse": {}, 
+    "type": "IFCMATERIALLAYERSET"
+}
+*********************************127**********************************
+{
+    "DirectionSense": ".NEGATIVE.", 
+    "ForLayerSet": 126, 
+    "LayerSetDirection": ".AXIS2.", 
+    "OffsetFromReferenceLine": 100.0, 
+    "inverse": {}, 
+    "type": "IFCMATERIALLAYERSETUSAGE"
+}
+*********************************128**********************************
+{
+    "Coordinates": [
+        750.6849315068403, 
+        -185.6164383561648, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************129**********************************
+{
+    "Axis": null, 
+    "Location": 128, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************130**********************************
+{
+    "PlacementRelTo": 38, 
+    "RelativePlacement": "#129", 
+    "inverse": {
+        "PlacesObject": [
+            155
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+*********************************131**********************************
+{
+    "Coordinates": [
+        7200.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************132**********************************
+{
+    "Points": [
+        4, 
+        131
+    ], 
+    "inverse": {}, 
+    "type": "IFCPOLYLINE"
+}
+*********************************133**********************************
+{
+    "ContextOfItems": 27, 
+    "Items": [
+        132
+    ], 
+    "RepresentationIdentifier": "Axis", 
+    "RepresentationType": "Curve2D", 
+    "inverse": {
+        "LayerAssignments": [
+            381
+        ], 
+        "OfProductRepresentation": [
+            154
+        ]
+    }, 
+    "type": "IFCSHAPEREPRESENTATION"
+}
+*********************************134**********************************
+{
+    "Coordinates": [
+        3600.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************135**********************************
+{
+    "Location": 134, 
+    "RefDirection": 12, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT2D"
+}
+*********************************136**********************************
+{
+    "Position": 135, 
+    "ProfileName": null, 
+    "ProfileType": ".AREA.", 
+    "XDim": 7200.000000000001, 
+    "YDim": 200.0, 
+    "inverse": {}, 
+    "type": "IFCRECTANGLEPROFILEDEF"
+}
+*********************************137**********************************
+{
+    "Axis": null, 
+    "Location": 3, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************138**********************************
+{
+    "Depth": 4000.0, 
+    "ExtrudedDirection": 9, 
+    "Position": 137, 
+    "SweptArea": 136, 
+    "inverse": {
+        "StyledByItem": [
+            140
+        ]
+    }, 
+    "type": "IFCEXTRUDEDAREASOLID"
+}
+*********************************139**********************************
+{
+    "Styles": [
+        "#61"
+    ], 
+    "inverse": {}, 
+    "type": "IFCPRESENTATIONSTYLEASSIGNMENT"
+}
+*********************************140**********************************
+{
+    "Item": 138, 
+    "Name": null, 
+    "Styles": [
+        139
+    ], 
+    "inverse": {}, 
+    "type": "IFCSTYLEDITEM"
+}
+*********************************141**********************************
+{
+    "Coordinates": [
+        7200.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************142**********************************
+{
+    "Coordinates": [
+        7200.0, 
+        200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************143**********************************
+{
+    "Coordinates": [
+        7000.0, 
+        200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************144**********************************
+{
+    "Coordinates": [
+        0.0, 
+        200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************145**********************************
+{
+    "Points": [
+        4, 
+        141, 
+        142, 
+        143, 
+        144, 
+        4
+    ], 
+    "inverse": {}, 
+    "type": "IFCPOLYLINE"
+}
+*********************************146**********************************
+{
+    "Coordinates": [
+        0.0, 
+        -100.0, 
+        3200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************147**********************************
+{
+    "Axis": null, 
+    "Location": 146, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************148**********************************
+{
+    "Position": 147, 
+    "inverse": {}, 
+    "type": "IFCPLANE"
+}
+*********************************149**********************************
+{
+    "Coordinates": [
+        0.0, 
+        -100.0, 
+        3200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************150**********************************
+{
+    "Axis": null, 
+    "Location": 149, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************151**********************************
+{
+    "AgreementFlag": false, 
+    "BaseSurface": 148, 
+    "PolygonalBoundary": 145, 
+    "Position": 150, 
+    "inverse": {}, 
+    "type": "IFCPOLYGONALBOUNDEDHALFSPACE"
+}
+*********************************152**********************************
+{
+    "FirstOperand": "#138", 
+    "Operator": ".DIFFERENCE.", 
+    "SecondOperand": "#151", 
+    "inverse": {}, 
+    "type": "IFCBOOLEANCLIPPINGRESULT"
+}
+*********************************153**********************************
+{
+    "ContextOfItems": 27, 
+    "Items": [
+        152
+    ], 
+    "RepresentationIdentifier": "Body", 
+    "RepresentationType": "Clipping", 
+    "inverse": {
+        "LayerAssignments": [
+            381
+        ], 
+        "OfProductRepresentation": [
+            154
+        ]
+    }, 
+    "type": "IFCSHAPEREPRESENTATION"
+}
+*********************************154**********************************
+{
+    "Description": null, 
+    "Name": null, 
+    "Representations": [
+        133, 
+        153
+    ], 
+    "inverse": {
+        "HasShapeAspects": [], 
+        "ShapeOfProduct": [
+            155
+        ]
+    }, 
+    "type": "IFCPRODUCTDEFINITIONSHAPE"
+}
+*********************************155**********************************
+{
+    "Description": null, 
+    "GlobalId": "2IG2vFkmL2xREpSneDGPrc", 
+    "Name": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1:2332", 
+    "ObjectPlacement": 130, 
+    "ObjectType": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1:1320", 
+    "OwnerHistory": 33, 
+    "Representation": 154, 
+    "Tag": "2332", 
+    "inverse": {
+        "ConnectedFrom": [
+            376
+        ], 
+        "ConnectedTo": [
+            377
+        ], 
+        "ContainedInStructure": [
+            349
+        ], 
+        "HasAssociations": [
+            362
+        ], 
+        "IsDefinedBy": [
+            158, 
+            166, 
+            168, 
+            170, 
+            172, 
+            369, 
+            370, 
+            371
+        ]
+    }, 
+    "type": "IFCWALLSTANDARDCASE"
+}
+*********************************156**********************************
+{
+    "Description": null, 
+    "Name": "Reference", 
+    "NominalValue": "IFCLABEL('\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************157**********************************
+{
+    "Description": null, 
+    "GlobalId": "3qUMx6zQzCj81JqHUYNrvO", 
+    "HasProperties": [
+        156, 
+        81, 
+        82, 
+        83
+    ], 
+    "Name": "Pset_WallCommon", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            158
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************158**********************************
+{
+    "Description": null, 
+    "GlobalId": "1uvgF8bMjAseJDrfH4p3Gi", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        155
+    ], 
+    "RelatingPropertyDefinition": 157, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************159**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B4\\X\\B4\\X\\BD\\X\\A8\\X\\B5\\X\\C4\\X\\BD\\X\\D7\\X\\B6\\X\\CE", 
+    "NominalValue": "IFCLABEL('\\X\\D0\\X\\C2\\X\\B9\\X\\B9\\X\\D4\\X\\EC')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************160**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\BB\\X\\F9\\X\\D7\\X\\BC\\X\\CF\\X\\DE\\X\\D6\\X\\C6\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "NominalValue": "IFCLABEL('\\X\\B1\\X\\EA\\X\\B8\\X\\DF 1')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************161**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\CE\\X\\DE\\X\\C1\\X\\AC\\X\\BD\\X\\D3\\X\\B8\\X\\DF\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(4000.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************162**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B3\\X\\A4\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(7200.000000000001)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************163**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\C3\\X\\E6\\X\\BB\\X\\FD", 
+    "NominalValue": "IFCAREAMEASURE(23040000.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************164**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\CC\\X\\E5\\X\\BB\\X\\FD", 
+    "NominalValue": "IFCVOLUMEMEASURE(4608000000.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************165**********************************
+{
+    "Description": null, 
+    "GlobalId": "3ZWzUxrvPAngVigNNVGj9F", 
+    "HasProperties": [
+        86, 
+        160, 
+        89, 
+        90, 
+        91, 
+        161, 
+        94, 
+        95, 
+        96, 
+        97, 
+        101
+    ], 
+    "Name": "PSet_Revit_\\X\\CF\\X\\DE\\X\\D6\\X\\C6\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            166
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************166**********************************
+{
+    "Description": null, 
+    "GlobalId": "3gMOSwB0H9Nvlds48a8eRn", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        155
+    ], 
+    "RelatingPropertyDefinition": 165, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************167**********************************
+{
+    "Description": null, 
+    "GlobalId": "07YOxrDUTBB8uhqNeLUiq$", 
+    "HasProperties": [
+        159
+    ], 
+    "Name": "PSet_Revit_\\X\\BD\\X\\D7\\X\\B6\\X\\CE\\X\\BB\\X\\AF", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            168
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************168**********************************
+{
+    "Description": null, 
+    "GlobalId": "3k_4bXW6PBOOJY$5u537NR", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        155
+    ], 
+    "RelatingPropertyDefinition": 167, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************169**********************************
+{
+    "Description": null, 
+    "GlobalId": "3pnPIUJsv4L8ZApwEU1Nzd", 
+    "HasProperties": [
+        92
+    ], 
+    "Name": "PSet_Revit_\\X\\BD\\X\\E1\\X\\B9\\X\\B9", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            170
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************170**********************************
+{
+    "Description": null, 
+    "GlobalId": "3ULt6E9aX5QQTe69YVeiNZ", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        155
+    ], 
+    "RelatingPropertyDefinition": 169, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************171**********************************
+{
+    "Description": null, 
+    "GlobalId": "0W1RPquTT9eBL6jQLuQ1vB", 
+    "HasProperties": [
+        162, 
+        163, 
+        164
+    ], 
+    "Name": "PSet_Revit_\\X\\B3\\X\\DF\\X\\B4\\X\\E7\\X\\B1\\X\\EA\\X\\D7\\X\\A2", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            172
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************172**********************************
+{
+    "Description": null, 
+    "GlobalId": "2X4_rHZ8vB4vU2DLaj_BMU", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        155
+    ], 
+    "RelatingPropertyDefinition": 171, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************173**********************************
+{
+    "DirectionSense": ".NEGATIVE.", 
+    "ForLayerSet": 126, 
+    "LayerSetDirection": ".AXIS2.", 
+    "OffsetFromReferenceLine": 100.0, 
+    "inverse": {}, 
+    "type": "IFCMATERIALLAYERSETUSAGE"
+}
+*********************************174**********************************
+{
+    "Coordinates": [
+        7850.684931506841, 
+        -85.61643835616493, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************175**********************************
+{
+    "Axis": 9, 
+    "Location": 174, 
+    "RefDirection": 7, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************176**********************************
+{
+    "PlacementRelTo": 38, 
+    "RelativePlacement": "#175", 
+    "inverse": {
+        "PlacesObject": [
+            201
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+*********************************177**********************************
+{
+    "Coordinates": [
+        4600.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************178**********************************
+{
+    "Points": [
+        4, 
+        177
+    ], 
+    "inverse": {}, 
+    "type": "IFCPOLYLINE"
+}
+*********************************179**********************************
+{
+    "ContextOfItems": 27, 
+    "Items": [
+        178
+    ], 
+    "RepresentationIdentifier": "Axis", 
+    "RepresentationType": "Curve2D", 
+    "inverse": {
+        "LayerAssignments": [
+            381
+        ], 
+        "OfProductRepresentation": [
+            200
+        ]
+    }, 
+    "type": "IFCSHAPEREPRESENTATION"
+}
+*********************************180**********************************
+{
+    "Coordinates": [
+        2300.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************181**********************************
+{
+    "Location": 180, 
+    "RefDirection": 12, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT2D"
+}
+*********************************182**********************************
+{
+    "Position": 181, 
+    "ProfileName": null, 
+    "ProfileType": ".AREA.", 
+    "XDim": 4599.999999999982, 
+    "YDim": 200.0, 
+    "inverse": {}, 
+    "type": "IFCRECTANGLEPROFILEDEF"
+}
+*********************************183**********************************
+{
+    "Axis": null, 
+    "Location": 3, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************184**********************************
+{
+    "Depth": 4000.0, 
+    "ExtrudedDirection": 9, 
+    "Position": 183, 
+    "SweptArea": 182, 
+    "inverse": {
+        "StyledByItem": [
+            186
+        ]
+    }, 
+    "type": "IFCEXTRUDEDAREASOLID"
+}
+*********************************185**********************************
+{
+    "Styles": [
+        "#61"
+    ], 
+    "inverse": {}, 
+    "type": "IFCPRESENTATIONSTYLEASSIGNMENT"
+}
+*********************************186**********************************
+{
+    "Item": 184, 
+    "Name": null, 
+    "Styles": [
+        185
+    ], 
+    "inverse": {}, 
+    "type": "IFCSTYLEDITEM"
+}
+*********************************187**********************************
+{
+    "Coordinates": [
+        4600.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************188**********************************
+{
+    "Coordinates": [
+        4600.0, 
+        200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************189**********************************
+{
+    "Coordinates": [
+        4400.0, 
+        200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************190**********************************
+{
+    "Coordinates": [
+        0.0, 
+        200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************191**********************************
+{
+    "Points": [
+        4, 
+        187, 
+        188, 
+        189, 
+        190, 
+        4
+    ], 
+    "inverse": {}, 
+    "type": "IFCPOLYLINE"
+}
+*********************************192**********************************
+{
+    "Coordinates": [
+        0.0, 
+        -100.0, 
+        3200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************193**********************************
+{
+    "Axis": 9, 
+    "Location": 192, 
+    "RefDirection": 8, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************194**********************************
+{
+    "Position": 193, 
+    "inverse": {}, 
+    "type": "IFCPLANE"
+}
+*********************************195**********************************
+{
+    "Coordinates": [
+        0.0, 
+        -100.0, 
+        3200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************196**********************************
+{
+    "Axis": null, 
+    "Location": 195, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************197**********************************
+{
+    "AgreementFlag": false, 
+    "BaseSurface": 194, 
+    "PolygonalBoundary": 191, 
+    "Position": 196, 
+    "inverse": {}, 
+    "type": "IFCPOLYGONALBOUNDEDHALFSPACE"
+}
+*********************************198**********************************
+{
+    "FirstOperand": "#184", 
+    "Operator": ".DIFFERENCE.", 
+    "SecondOperand": "#197", 
+    "inverse": {}, 
+    "type": "IFCBOOLEANCLIPPINGRESULT"
+}
+*********************************199**********************************
+{
+    "ContextOfItems": 27, 
+    "Items": [
+        198
+    ], 
+    "RepresentationIdentifier": "Body", 
+    "RepresentationType": "Clipping", 
+    "inverse": {
+        "LayerAssignments": [
+            381
+        ], 
+        "OfProductRepresentation": [
+            200
+        ]
+    }, 
+    "type": "IFCSHAPEREPRESENTATION"
+}
+*********************************200**********************************
+{
+    "Description": null, 
+    "Name": null, 
+    "Representations": [
+        179, 
+        199
+    ], 
+    "inverse": {
+        "HasShapeAspects": [], 
+        "ShapeOfProduct": [
+            201
+        ]
+    }, 
+    "type": "IFCPRODUCTDEFINITIONSHAPE"
+}
+*********************************201**********************************
+{
+    "Description": null, 
+    "GlobalId": "2IG2vFkmL2xREpSneDGPqM", 
+    "Name": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1:2412", 
+    "ObjectPlacement": 176, 
+    "ObjectType": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1:1320", 
+    "OwnerHistory": 33, 
+    "Representation": 200, 
+    "Tag": "2412", 
+    "inverse": {
+        "ConnectedFrom": [
+            377
+        ], 
+        "ConnectedTo": [
+            378
+        ], 
+        "ContainedInStructure": [
+            349
+        ], 
+        "HasAssociations": [
+            363
+        ], 
+        "IsDefinedBy": [
+            204, 
+            212, 
+            214, 
+            216, 
+            218, 
+            369, 
+            370, 
+            371
+        ]
+    }, 
+    "type": "IFCWALLSTANDARDCASE"
+}
+*********************************202**********************************
+{
+    "Description": null, 
+    "Name": "Reference", 
+    "NominalValue": "IFCLABEL('\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************203**********************************
+{
+    "Description": null, 
+    "GlobalId": "2_wkF_NkvDfgd9pbIkxBd_", 
+    "HasProperties": [
+        202, 
+        81, 
+        82, 
+        83
+    ], 
+    "Name": "Pset_WallCommon", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            204
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************204**********************************
+{
+    "Description": null, 
+    "GlobalId": "1x$pbGIM91yxfPy2$KNL8D", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        201
+    ], 
+    "RelatingPropertyDefinition": 203, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************205**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B4\\X\\B4\\X\\BD\\X\\A8\\X\\B5\\X\\C4\\X\\BD\\X\\D7\\X\\B6\\X\\CE", 
+    "NominalValue": "IFCLABEL('\\X\\D0\\X\\C2\\X\\B9\\X\\B9\\X\\D4\\X\\EC')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************206**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\BB\\X\\F9\\X\\D7\\X\\BC\\X\\CF\\X\\DE\\X\\D6\\X\\C6\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "NominalValue": "IFCLABEL('\\X\\B1\\X\\EA\\X\\B8\\X\\DF 1')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************207**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\CE\\X\\DE\\X\\C1\\X\\AC\\X\\BD\\X\\D3\\X\\B8\\X\\DF\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(4000.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************208**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B3\\X\\A4\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(4599.999999999981)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************209**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\C3\\X\\E6\\X\\BB\\X\\FD", 
+    "NominalValue": "IFCAREAMEASURE(14719999.99999994)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************210**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\CC\\X\\E5\\X\\BB\\X\\FD", 
+    "NominalValue": "IFCVOLUMEMEASURE(2943999999.99999)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************211**********************************
+{
+    "Description": null, 
+    "GlobalId": "3j1$_vJAT2RhLubi763eeR", 
+    "HasProperties": [
+        86, 
+        206, 
+        89, 
+        90, 
+        91, 
+        207, 
+        94, 
+        95, 
+        96, 
+        97, 
+        101
+    ], 
+    "Name": "PSet_Revit_\\X\\CF\\X\\DE\\X\\D6\\X\\C6\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            212
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************212**********************************
+{
+    "Description": null, 
+    "GlobalId": "3oNs0nY7n8ORQmwB02xI8R", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        201
+    ], 
+    "RelatingPropertyDefinition": 211, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************213**********************************
+{
+    "Description": null, 
+    "GlobalId": "2Af0A4xOvBzBOTnkH0Qgmp", 
+    "HasProperties": [
+        205
+    ], 
+    "Name": "PSet_Revit_\\X\\BD\\X\\D7\\X\\B6\\X\\CE\\X\\BB\\X\\AF", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            214
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************214**********************************
+{
+    "Description": null, 
+    "GlobalId": "3c6B_wrK90lBVTPVH8PjLa", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        201
+    ], 
+    "RelatingPropertyDefinition": 213, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************215**********************************
+{
+    "Description": null, 
+    "GlobalId": "10YhMWj_PAARKbkO3GnF5w", 
+    "HasProperties": [
+        92
+    ], 
+    "Name": "PSet_Revit_\\X\\BD\\X\\E1\\X\\B9\\X\\B9", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            216
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************216**********************************
+{
+    "Description": null, 
+    "GlobalId": "1ydUYjdUnCNRMuy3_UQFKu", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        201
+    ], 
+    "RelatingPropertyDefinition": 215, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************217**********************************
+{
+    "Description": null, 
+    "GlobalId": "2bcerK3Nn0pxAU4R8HOk$u", 
+    "HasProperties": [
+        208, 
+        209, 
+        210
+    ], 
+    "Name": "PSet_Revit_\\X\\B3\\X\\DF\\X\\B4\\X\\E7\\X\\B1\\X\\EA\\X\\D7\\X\\A2", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            218
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************218**********************************
+{
+    "Description": null, 
+    "GlobalId": "23ADA731D2FOLR5BF2lJaW", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        201
+    ], 
+    "RelatingPropertyDefinition": 217, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************219**********************************
+{
+    "DirectionSense": ".NEGATIVE.", 
+    "ForLayerSet": 126, 
+    "LayerSetDirection": ".AXIS2.", 
+    "OffsetFromReferenceLine": 100.0, 
+    "inverse": {}, 
+    "type": "IFCMATERIALLAYERSETUSAGE"
+}
+*********************************220**********************************
+{
+    "Coordinates": [
+        7750.684931506848, 
+        4414.383561643817, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************221**********************************
+{
+    "Axis": 9, 
+    "Location": 220, 
+    "RefDirection": 6, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************222**********************************
+{
+    "PlacementRelTo": 38, 
+    "RelativePlacement": "#221", 
+    "inverse": {
+        "PlacesObject": [
+            246
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+*********************************223**********************************
+{
+    "Coordinates": [
+        7000.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************224**********************************
+{
+    "Points": [
+        4, 
+        223
+    ], 
+    "inverse": {}, 
+    "type": "IFCPOLYLINE"
+}
+*********************************225**********************************
+{
+    "ContextOfItems": 27, 
+    "Items": [
+        224
+    ], 
+    "RepresentationIdentifier": "Axis", 
+    "RepresentationType": "Curve2D", 
+    "inverse": {
+        "LayerAssignments": [
+            381
+        ], 
+        "OfProductRepresentation": [
+            245
+        ]
+    }, 
+    "type": "IFCSHAPEREPRESENTATION"
+}
+*********************************226**********************************
+{
+    "Coordinates": [
+        3500.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************227**********************************
+{
+    "Location": 226, 
+    "RefDirection": 12, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT2D"
+}
+*********************************228**********************************
+{
+    "Position": 227, 
+    "ProfileName": null, 
+    "ProfileType": ".AREA.", 
+    "XDim": 7000.000000000001, 
+    "YDim": 200.0, 
+    "inverse": {}, 
+    "type": "IFCRECTANGLEPROFILEDEF"
+}
+*********************************229**********************************
+{
+    "Axis": null, 
+    "Location": 3, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************230**********************************
+{
+    "Depth": 4000.0, 
+    "ExtrudedDirection": 9, 
+    "Position": 229, 
+    "SweptArea": 228, 
+    "inverse": {
+        "StyledByItem": [
+            232
+        ]
+    }, 
+    "type": "IFCEXTRUDEDAREASOLID"
+}
+*********************************231**********************************
+{
+    "Styles": [
+        "#61"
+    ], 
+    "inverse": {}, 
+    "type": "IFCPRESENTATIONSTYLEASSIGNMENT"
+}
+*********************************232**********************************
+{
+    "Item": 230, 
+    "Name": null, 
+    "Styles": [
+        231
+    ], 
+    "inverse": {}, 
+    "type": "IFCSTYLEDITEM"
+}
+*********************************233**********************************
+{
+    "Coordinates": [
+        7000.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************234**********************************
+{
+    "Coordinates": [
+        7000.0, 
+        200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************235**********************************
+{
+    "Coordinates": [
+        -0.0, 
+        200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************236**********************************
+{
+    "Points": [
+        4, 
+        233, 
+        234, 
+        235, 
+        4
+    ], 
+    "inverse": {}, 
+    "type": "IFCPOLYLINE"
+}
+*********************************237**********************************
+{
+    "Coordinates": [
+        0.0, 
+        -100.0, 
+        3200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************238**********************************
+{
+    "Axis": 9, 
+    "Location": 237, 
+    "RefDirection": 6, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************239**********************************
+{
+    "Position": 238, 
+    "inverse": {}, 
+    "type": "IFCPLANE"
+}
+*********************************240**********************************
+{
+    "Coordinates": [
+        0.0, 
+        -100.0, 
+        3200.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************241**********************************
+{
+    "Axis": null, 
+    "Location": 240, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************242**********************************
+{
+    "AgreementFlag": false, 
+    "BaseSurface": 239, 
+    "PolygonalBoundary": 236, 
+    "Position": 241, 
+    "inverse": {}, 
+    "type": "IFCPOLYGONALBOUNDEDHALFSPACE"
+}
+*********************************243**********************************
+{
+    "FirstOperand": "#230", 
+    "Operator": ".DIFFERENCE.", 
+    "SecondOperand": "#242", 
+    "inverse": {}, 
+    "type": "IFCBOOLEANCLIPPINGRESULT"
+}
+*********************************244**********************************
+{
+    "ContextOfItems": 27, 
+    "Items": [
+        243
+    ], 
+    "RepresentationIdentifier": "Body", 
+    "RepresentationType": "Clipping", 
+    "inverse": {
+        "LayerAssignments": [
+            381
+        ], 
+        "OfProductRepresentation": [
+            245
+        ]
+    }, 
+    "type": "IFCSHAPEREPRESENTATION"
+}
+*********************************245**********************************
+{
+    "Description": null, 
+    "Name": null, 
+    "Representations": [
+        225, 
+        244
+    ], 
+    "inverse": {
+        "HasShapeAspects": [], 
+        "ShapeOfProduct": [
+            246
+        ]
+    }, 
+    "type": "IFCPRODUCTDEFINITIONSHAPE"
+}
+*********************************246**********************************
+{
+    "Description": null, 
+    "GlobalId": "2IG2vFkmL2xREpSneDGPtP", 
+    "Name": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1:2467", 
+    "ObjectPlacement": 222, 
+    "ObjectType": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1:1320", 
+    "OwnerHistory": 33, 
+    "Representation": 245, 
+    "Tag": "2467", 
+    "inverse": {
+        "ConnectedFrom": [
+            375, 
+            378, 
+            379
+        ], 
+        "ContainedInStructure": [
+            349
+        ], 
+        "HasAssociations": [
+            364
+        ], 
+        "IsDefinedBy": [
+            249, 
+            257, 
+            259, 
+            261, 
+            263, 
+            369, 
+            370, 
+            371
+        ]
+    }, 
+    "type": "IFCWALLSTANDARDCASE"
+}
+*********************************247**********************************
+{
+    "Description": null, 
+    "Name": "Reference", 
+    "NominalValue": "IFCLABEL('\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\C7\\X\\BD:\\X\\C7\\X\\BD 1')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************248**********************************
+{
+    "Description": null, 
+    "GlobalId": "3WfAfNOyv7d9eIt6cv$NFV", 
+    "HasProperties": [
+        247, 
+        81, 
+        82, 
+        83
+    ], 
+    "Name": "Pset_WallCommon", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            249
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************249**********************************
+{
+    "Description": null, 
+    "GlobalId": "0dPbmhqmD7Lx0aGRbaa0aI", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        246
+    ], 
+    "RelatingPropertyDefinition": 248, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************250**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B4\\X\\B4\\X\\BD\\X\\A8\\X\\B5\\X\\C4\\X\\BD\\X\\D7\\X\\B6\\X\\CE", 
+    "NominalValue": "IFCLABEL('\\X\\D0\\X\\C2\\X\\B9\\X\\B9\\X\\D4\\X\\EC')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************251**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\BB\\X\\F9\\X\\D7\\X\\BC\\X\\CF\\X\\DE\\X\\D6\\X\\C6\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "NominalValue": "IFCLABEL('\\X\\B1\\X\\EA\\X\\B8\\X\\DF 1')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************252**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\CE\\X\\DE\\X\\C1\\X\\AC\\X\\BD\\X\\D3\\X\\B8\\X\\DF\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(4000.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************253**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B3\\X\\A4\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(7200.000000000001)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************254**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\C3\\X\\E6\\X\\BB\\X\\FD", 
+    "NominalValue": "IFCAREAMEASURE(22400000.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************255**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\CC\\X\\E5\\X\\BB\\X\\FD", 
+    "NominalValue": "IFCVOLUMEMEASURE(4480000000.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************256**********************************
+{
+    "Description": null, 
+    "GlobalId": "1hpKYAWyfFRuGyxrihbi6A", 
+    "HasProperties": [
+        86, 
+        251, 
+        89, 
+        90, 
+        91, 
+        252, 
+        94, 
+        95, 
+        96, 
+        97, 
+        101
+    ], 
+    "Name": "PSet_Revit_\\X\\CF\\X\\DE\\X\\D6\\X\\C6\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            257
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************257**********************************
+{
+    "Description": null, 
+    "GlobalId": "3MtoLHSabCmOnIYsFAG57_", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        246
+    ], 
+    "RelatingPropertyDefinition": 256, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************258**********************************
+{
+    "Description": null, 
+    "GlobalId": "343iDHc3vFdggEwCGh8NA8", 
+    "HasProperties": [
+        250
+    ], 
+    "Name": "PSet_Revit_\\X\\BD\\X\\D7\\X\\B6\\X\\CE\\X\\BB\\X\\AF", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            259
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************259**********************************
+{
+    "Description": null, 
+    "GlobalId": "1yr$arWuD2s9giq5jjajke", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        246
+    ], 
+    "RelatingPropertyDefinition": 258, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************260**********************************
+{
+    "Description": null, 
+    "GlobalId": "2MogNhsoT1JxHQ_bcd7Zbp", 
+    "HasProperties": [
+        92
+    ], 
+    "Name": "PSet_Revit_\\X\\BD\\X\\E1\\X\\B9\\X\\B9", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            261
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************261**********************************
+{
+    "Description": null, 
+    "GlobalId": "2dsYA8PoP1rhHjUWeQ8$xK", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        246
+    ], 
+    "RelatingPropertyDefinition": 260, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************262**********************************
+{
+    "Description": null, 
+    "GlobalId": "1kcPvSC0X0DPCsp6KqJXi1", 
+    "HasProperties": [
+        253, 
+        254, 
+        255
+    ], 
+    "Name": "PSet_Revit_\\X\\B3\\X\\DF\\X\\B4\\X\\E7\\X\\B1\\X\\EA\\X\\D7\\X\\A2", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            263
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************263**********************************
+{
+    "Description": null, 
+    "GlobalId": "0LCrXOYBr5NP4srlVWd$p2", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        246
+    ], 
+    "RelatingPropertyDefinition": 262, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************264**********************************
+{
+    "DirectionSense": ".NEGATIVE.", 
+    "ForLayerSet": 126, 
+    "LayerSetDirection": ".AXIS2.", 
+    "OffsetFromReferenceLine": 100.0, 
+    "inverse": {}, 
+    "type": "IFCMATERIALLAYERSETUSAGE"
+}
+*********************************265**********************************
+{
+    "Axis": null, 
+    "Location": 3, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************266**********************************
+{
+    "PlacementRelTo": 46, 
+    "RelativePlacement": "#265", 
+    "inverse": {
+        "PlacesObject": [
+            267
+        ], 
+        "ReferencedByPlacements": [
+            283
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+*********************************267**********************************
+{
+    "Description": null, 
+    "GlobalId": "2IG2vFkmL2xREpSneDGObp", 
+    "Name": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\CE\\X\\DD\\X\\B6\\X\\A5:\\X\\CE\\X\\DD\\X\\B6\\X\\A5 1:7433", 
+    "ObjectPlacement": 266, 
+    "ObjectType": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\CE\\X\\DD\\X\\B6\\X\\A5:\\X\\CE\\X\\DD\\X\\B6\\X\\A5 1", 
+    "OwnerHistory": 33, 
+    "Representation": null, 
+    "ShapeType": ".NOTDEFINED.", 
+    "Tag": "7433", 
+    "inverse": {
+        "ContainedInStructure": [
+            356
+        ], 
+        "HasAssociations": [
+            365
+        ], 
+        "IsDecomposedBy": [
+            285
+        ], 
+        "IsDefinedBy": [
+            291, 
+            308, 
+            310, 
+            312, 
+            314, 
+            316, 
+            372, 
+            373, 
+            374
+        ]
+    }, 
+    "type": "IFCROOF"
+}
+*********************************268**********************************
+{
+    "Coordinates": [
+        550.6849315068406, 
+        -285.6164383561648, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************269**********************************
+{
+    "Axis": null, 
+    "Location": 268, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************271**********************************
+{
+    "Location": 4, 
+    "RefDirection": 13, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT2D"
+}
+*********************************272**********************************
+{
+    "Position": 271, 
+    "ProfileName": null, 
+    "ProfileType": ".AREA.", 
+    "XDim": 4800.000000000006, 
+    "YDim": 7400.0, 
+    "inverse": {}, 
+    "type": "IFCRECTANGLEPROFILEDEF"
+}
+*********************************273**********************************
+{
+    "Coordinates": [
+        3700.0, 
+        2400.0, 
+        0.0
+    ], 
+    "inverse": {}, 
+    "type": "IFCCARTESIANPOINT"
+}
+*********************************274**********************************
+{
+    "Axis": null, 
+    "Location": 273, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************275**********************************
+{
+    "Depth": 152.4, 
+    "ExtrudedDirection": 9, 
+    "Position": 274, 
+    "SweptArea": 272, 
+    "inverse": {
+        "StyledByItem": [
+            280
+        ]
+    }, 
+    "type": "IFCEXTRUDEDAREASOLID"
+}
+*********************************276**********************************
+{
+    "Blue": 0.0, 
+    "Green": 0.4980392156862745, 
+    "Name": null, 
+    "Red": 0.0, 
+    "inverse": {}, 
+    "type": "IFCCOLOURRGB"
+}
+*********************************277**********************************
+{
+    "DiffuseColour": null, 
+    "DiffuseTransmissionColour": null, 
+    "ReflectanceMethod": ".NOTDEFINED.", 
+    "ReflectionColour": null, 
+    "SpecularColour": "IFCNORMALISEDRATIOMEASURE(0.00390625)", 
+    "SpecularHighlight": "IFCSPECULAREXPONENT(64.)", 
+    "SurfaceColour": 276, 
+    "TransmissionColour": null, 
+    "Transparency": 0.0, 
+    "inverse": {}, 
+    "type": "IFCSURFACESTYLERENDERING"
+}
+*********************************278**********************************
+{
+    "Name": "\\X\\C4\\X\\AC\\X\\C8\\X\\CF\\X\\CE\\X\\DD\\X\\B6\\X\\A5", 
+    "Side": ".BOTH.", 
+    "Styles": [
+        "#277"
+    ], 
+    "inverse": {}, 
+    "type": "IFCSURFACESTYLE"
+}
+*********************************279**********************************
+{
+    "Styles": [
+        "#278"
+    ], 
+    "inverse": {}, 
+    "type": "IFCPRESENTATIONSTYLEASSIGNMENT"
+}
+*********************************280**********************************
+{
+    "Item": 275, 
+    "Name": null, 
+    "Styles": [
+        279
+    ], 
+    "inverse": {}, 
+    "type": "IFCSTYLEDITEM"
+}
+*********************************281**********************************
+{
+    "ContextOfItems": 27, 
+    "Items": [
+        275
+    ], 
+    "RepresentationIdentifier": "Body", 
+    "RepresentationType": "SweptSolid", 
+    "inverse": {
+        "LayerAssignments": [
+            380
+        ], 
+        "OfProductRepresentation": [
+            282
+        ]
+    }, 
+    "type": "IFCSHAPEREPRESENTATION"
+}
+*********************************282**********************************
+{
+    "Description": null, 
+    "Name": null, 
+    "Representations": [
+        281
+    ], 
+    "inverse": {
+        "HasShapeAspects": [], 
+        "ShapeOfProduct": [
+            284
+        ]
+    }, 
+    "type": "IFCPRODUCTDEFINITIONSHAPE"
+}
+*********************************283**********************************
+{
+    "PlacementRelTo": 266, 
+    "RelativePlacement": "#269", 
+    "inverse": {
+        "PlacesObject": [
+            284
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+*********************************284**********************************
+{
+    "Description": null, 
+    "GlobalId": "2EXfc6FLjAEuVNV7eNR_mR", 
+    "Name": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\CE\\X\\DD\\X\\B6\\X\\A5:\\X\\CE\\X\\DD\\X\\B6\\X\\A5 1:7433", 
+    "ObjectPlacement": 283, 
+    "ObjectType": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\CE\\X\\DD\\X\\B6\\X\\A5:\\X\\CE\\X\\DD\\X\\B6\\X\\A5 1", 
+    "OwnerHistory": 33, 
+    "PredefinedType": ".ROOF.", 
+    "Representation": 282, 
+    "Tag": "7433", 
+    "inverse": {
+        "Decomposes": [
+            285
+        ]
+    }, 
+    "type": "IFCSLAB"
+}
+*********************************285**********************************
+{
+    "Description": null, 
+    "GlobalId": "18joNU0VL6z8T8YS_GfpjG", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        284
+    ], 
+    "RelatingObject": 267, 
+    "inverse": {}, 
+    "type": "IFCRELAGGREGATES"
+}
+*********************************286**********************************
+{
+    "Description": null, 
+    "Name": "Reference", 
+    "NominalValue": "IFCLABEL('\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\CE\\X\\DD\\X\\B6\\X\\A5:\\X\\CE\\X\\DD\\X\\B6\\X\\A5 1')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************287**********************************
+{
+    "Description": null, 
+    "Name": "IsExternal", 
+    "NominalValue": "IFCBOOLEAN(.F.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************288**********************************
+{
+    "Description": null, 
+    "Name": "TotalArea", 
+    "NominalValue": "IFCAREAMEASURE(35519999.99999995)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************289**********************************
+{
+    "Description": null, 
+    "Name": "ProjectedArea", 
+    "NominalValue": "IFCAREAMEASURE(35519999.99999995)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************290**********************************
+{
+    "Description": null, 
+    "GlobalId": "0MebPQ4E9CfhEOg5uQG6lN", 
+    "HasProperties": [
+        286, 
+        287, 
+        288, 
+        289
+    ], 
+    "Name": "Pset_RoofCommon", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            291
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************291**********************************
+{
+    "Description": null, 
+    "GlobalId": "3$fx44KIL6XReHe6_g5Z2L", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        267
+    ], 
+    "RelatingPropertyDefinition": 290, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************292**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\BB\\X\\F9\\X\\D7\\X\\BC\\X\\B1\\X\\EA\\X\\B8\\X\\DF", 
+    "NominalValue": "IFCLABEL('\\X\\B1\\X\\EA\\X\\B8\\X\\DF 4')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************293**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B4\\X\\AA\\X\\BD\\X\\D8\\X\\C3\\X\\E6", 
+    "NominalValue": "IFCINTEGER(33615)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************294**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B7\\X\\E2\\X\\E9\\X\\DC\\X\\B4\\X\\F8\\X\\C9\\X\\EE\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(0.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************295**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B4\\X\\AA\\X\\BB\\X\\F2\\X\\E8\\X\\EC\\X\\BC\\X\\DC", 
+    "NominalValue": "IFCINTEGER(0)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************296**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B4\\X\\B4\\X\\BD\\X\\A8\\X\\B5\\X\\C4\\X\\BD\\X\\D7\\X\\B6\\X\\CE", 
+    "NominalValue": "IFCLABEL('\\X\\D0\\X\\C2\\X\\B9\\X\\B9\\X\\D4\\X\\EC')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************297**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\CD\\X\\E4\\X\\C7\\X\\FA\\X\\B1\\X\\DF\\X\\D4\\X\\B5\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "NominalValue": "IFCINTEGER(0)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************298**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\BA\\X\\F1\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(152.4)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************299**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\BB\\X\\F9\\X\\D7\\X\\BC\\X\\D3\\X\\EB\\X\\B1\\X\\EA\\X\\B8\\X\\DF\\X\\B5\\X\\C4\\X\\C6\\X\\AB\\X\\D2\\X\\C6", 
+    "NominalValue": "IFCLENGTHMEASURE(0.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************300**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\BD\\X\\D8\\X\\B6\\X\\CF\\X\\C6\\X\\AB\\X\\D2\\X\\C6", 
+    "NominalValue": "IFCLENGTHMEASURE(0.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************301**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\D7\\X\\EE\\X\\B4\\X\\F3\\X\\CE\\X\\DD\\X\\BC\\X\\B9\\X\\B8\\X\\DF\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(3352.4)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************302**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\CC\\X\\E5\\X\\BB\\X\\FD", 
+    "NominalValue": "IFCVOLUMEMEASURE(5413247999.999992)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************303**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\C3\\X\\E6\\X\\BB\\X\\FD", 
+    "NominalValue": "IFCAREAMEASURE(35519999.99999995)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************304**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\C4\\X\\AC\\X\\C8\\X\\CF\\X\\B5\\X\\C4\\X\\BA\\X\\F1\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCLENGTHMEASURE(152.4)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************305**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B2\\X\\BF\\X\\BC\\X\\FE\\X\\CB\\X\\B5\\X\\C3\\X\\F7", 
+    "NominalValue": "IFCLABEL('')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************306**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B2\\X\\BF\\X\\BC\\X\\FE\\X\\B4\\X\\FA\\X\\C2\\X\\EB", 
+    "NominalValue": "IFCLABEL('')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************307**********************************
+{
+    "Description": null, 
+    "GlobalId": "18atjVDPH6$vwkNq1LU8Aw", 
+    "HasProperties": [
+        292, 
+        97, 
+        101, 
+        299, 
+        300
+    ], 
+    "Name": "PSet_Revit_\\X\\CF\\X\\DE\\X\\D6\\X\\C6\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            308
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************308**********************************
+{
+    "Description": null, 
+    "GlobalId": "18JPEwGSr2pRRFN3s7juWw", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        267
+    ], 
+    "RelatingPropertyDefinition": 307, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************309**********************************
+{
+    "Description": null, 
+    "GlobalId": "20W8RzynHBN97zUumZuPKt", 
+    "HasProperties": [
+        293, 
+        294, 
+        295, 
+        301
+    ], 
+    "Name": "PSet_Revit_\\X\\B9\\X\\B9\\X\\D4\\X\\EC", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            310
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************310**********************************
+{
+    "Description": null, 
+    "GlobalId": "1yJonAt_b0wRYotopxWYyB", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        267
+    ], 
+    "RelatingPropertyDefinition": 309, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************311**********************************
+{
+    "Description": null, 
+    "GlobalId": "10Z$Il2Uj5GuNzEUZM9v$F", 
+    "HasProperties": [
+        296
+    ], 
+    "Name": "PSet_Revit_\\X\\BD\\X\\D7\\X\\B6\\X\\CE\\X\\BB\\X\\AF", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            312
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************312**********************************
+{
+    "Description": null, 
+    "GlobalId": "3e9OfS_WT2ZAx8u1urKZ3K", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        267
+    ], 
+    "RelatingPropertyDefinition": 311, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************313**********************************
+{
+    "Description": null, 
+    "GlobalId": "1S5XjLwUTFE9deB9aODw1S", 
+    "HasProperties": [
+        298, 
+        302, 
+        303
+    ], 
+    "Name": "PSet_Revit_\\X\\B3\\X\\DF\\X\\B4\\X\\E7\\X\\B1\\X\\EA\\X\\D7\\X\\A2", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            314
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************314**********************************
+{
+    "Description": null, 
+    "GlobalId": "3jutjGEwn0ffrjS4$AEDDR", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        267
+    ], 
+    "RelatingPropertyDefinition": 313, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************315**********************************
+{
+    "Description": null, 
+    "GlobalId": "0RxhVpyBT65vGc4WUxdAGj", 
+    "HasProperties": [
+        297
+    ], 
+    "Name": "PSet_Revit_\\X\\B1\\X\\E0\\X\\BC\\X\\AD\\X\\B0\\X\\E5\\X\\D0\\X\\CE\\X\\D7\\X\\B4", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            316
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************316**********************************
+{
+    "Description": null, 
+    "GlobalId": "3p_VGApPP1av$Yl2nv5uI8", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        267
+    ], 
+    "RelatingPropertyDefinition": 315, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************317**********************************
+{
+    "Description": null, 
+    "GlobalId": "3js1gEAJD7s8PU2gLfgjo$", 
+    "HasProperties": [
+        304
+    ], 
+    "Name": "PSet_Revit_Type_\\X\\B9\\X\\B9\\X\\D4\\X\\EC", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            372
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************318**********************************
+{
+    "Description": null, 
+    "GlobalId": "3hVOaT4qfBdAIgYIDv4ulv", 
+    "HasProperties": [
+        102
+    ], 
+    "Name": "PSet_Revit_Type_\\X\\CD\\X\\BC\\X\\D0\\X\\CE", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            373
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************319**********************************
+{
+    "Description": null, 
+    "GlobalId": "3Y3qlFSHr6tglOti$hMn9D", 
+    "HasProperties": [
+        305, 
+        306
+    ], 
+    "Name": "PSet_Revit_Type_\\X\\B1\\X\\EA\\X\\CA\\X\\B6\\X\\CA\\X\\FD\\X\\BE\\X\\DD", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            374
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************320**********************************
+{
+    "Name": "\\X\\C4\\X\\AC\\X\\C8\\X\\CF\\X\\CE\\X\\DD\\X\\B6\\X\\A5", 
+    "inverse": {
+        "ClassifiedAs": [], 
+        "HasRepresentation": [
+            324
+        ]
+    }, 
+    "type": "IFCMATERIAL"
+}
+*********************************321**********************************
+{
+    "Styles": [
+        "#278"
+    ], 
+    "inverse": {}, 
+    "type": "IFCPRESENTATIONSTYLEASSIGNMENT"
+}
+*********************************322**********************************
+{
+    "Item": null, 
+    "Name": null, 
+    "Styles": [
+        321
+    ], 
+    "inverse": {}, 
+    "type": "IFCSTYLEDITEM"
+}
+*********************************323**********************************
+{
+    "ContextOfItems": 29, 
+    "Items": [
+        322
+    ], 
+    "RepresentationIdentifier": "Style", 
+    "RepresentationType": "Material", 
+    "inverse": {
+        "OfProductRepresentation": [
+            324
+        ]
+    }, 
+    "type": "IFCSTYLEDREPRESENTATION"
+}
+*********************************324**********************************
+{
+    "Description": null, 
+    "Name": null, 
+    "Representations": [
+        323
+    ], 
+    "RepresentedMaterial": 320, 
+    "inverse": {}, 
+    "type": "IFCMATERIALDEFINITIONREPRESENTATION"
+}
+*********************************325**********************************
+{
+    "IsVentilated": null, 
+    "LayerThickness": 152.4, 
+    "Material": 320, 
+    "inverse": {
+        "ToMaterialLayerSet": [
+            326
+        ]
+    }, 
+    "type": "IFCMATERIALLAYER"
+}
+*********************************326**********************************
+{
+    "LayerSetName": "\\X\\BB\\X\\F9\\X\\B1\\X\\BE\\X\\CE\\X\\DD\\X\\B6\\X\\A5:\\X\\CE\\X\\DD\\X\\B6\\X\\A5 1", 
+    "MaterialLayers": [
+        325
+    ], 
+    "inverse": {}, 
+    "type": "IFCMATERIALLAYERSET"
+}
+*********************************327**********************************
+{
+    "DirectionSense": ".NEGATIVE.", 
+    "ForLayerSet": 326, 
+    "LayerSetDirection": ".AXIS3.", 
+    "OffsetFromReferenceLine": -0.0, 
+    "inverse": {}, 
+    "type": "IFCMATERIALLAYERSETUSAGE"
+}
+*********************************328**********************************
+{
+    "Axis": null, 
+    "Location": 3, 
+    "RefDirection": null, 
+    "inverse": {}, 
+    "type": "IFCAXIS2PLACEMENT3D"
+}
+*********************************329**********************************
+{
+    "PlacementRelTo": null, 
+    "RelativePlacement": "#328", 
+    "inverse": {
+        "PlacesObject": [
+            330
+        ], 
+        "ReferencedByPlacements": [
+            25
+        ]
+    }, 
+    "type": "IFCLOCALPLACEMENT"
+}
+*********************************330**********************************
+{
+    "CompositionType": ".ELEMENT.", 
+    "Description": null, 
+    "GlobalId": "2Gt9cKC6XCEgrd8DA63CDw", 
+    "LandTitleNumber": null, 
+    "LongName": null, 
+    "Name": "\\X\\C4\\X\\AC\\X\\C8\\X\\CF", 
+    "ObjectPlacement": 329, 
+    "ObjectType": "", 
+    "OwnerHistory": 33, 
+    "RefElevation": -0.0, 
+    "RefLatitude": [
+        42, 
+        24, 
+        53, 
+        508911
+    ], 
+    "RefLongitude": [
+        -71, 
+        -15, 
+        -29, 
+        -58837
+    ], 
+    "Representation": null, 
+    "SiteAddress": null, 
+    "inverse": {
+        "Decomposes": [
+            331
+        ], 
+        "IsDecomposedBy": [
+            332
+        ]
+    }, 
+    "type": "IFCSITE"
+}
+*********************************331**********************************
+{
+    "Description": null, 
+    "GlobalId": "0m1YUk9$fAUR021C2J94E7", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        330
+    ], 
+    "RelatingObject": 34, 
+    "inverse": {}, 
+    "type": "IFCRELAGGREGATES"
+}
+*********************************332**********************************
+{
+    "Description": null, 
+    "GlobalId": "0Xh16tW$LFiQnTRxGc3EXz", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        36
+    ], 
+    "RelatingObject": 330, 
+    "inverse": {}, 
+    "type": "IFCRELAGGREGATES"
+}
+*********************************333**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\C3\\X\\FB\\X\\B3\\X\\C6", 
+    "NominalValue": "IFCLABEL('\\X\\B1\\X\\EA\\X\\B8\\X\\DF 1')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************334**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\C1\\X\\A2\\X\\C3\\X\\E6", 
+    "NominalValue": "IFCLENGTHMEASURE(0.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************335**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\CF\\X\\DF\\X\\BF\\X\\ED", 
+    "NominalValue": "IFCINTEGER(1)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************336**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\D1\\X\\D5\\X\\C9\\X\\AB", 
+    "NominalValue": "IFCINTEGER(0)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************337**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\CF\\X\\DF\\X\\D0\\X\\CD\\X\\CD\\X\\BC\\X\\B0\\X\\B8", 
+    "NominalValue": "IFCLABEL('\\X\\CA\\X\\B5\\X\\D0\\X\\C4')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************338**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\BB\\X\\F9\\X\\C3\\X\\E6", 
+    "NominalValue": "IFCINTEGER(0)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************339**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B6\\X\\CB\\X\\B5\\X\\E3 1 \\X\\B4\\X\\A6\\X\\B5\\X\\C4\\X\\C4\\X\\AC\\X\\C8\\X\\CF\\X\\B7\\X\\FB\\X\\BA\\X\\C5", 
+    "NominalValue": "IFCBOOLEAN(.F.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************340**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\B6\\X\\CB\\X\\B5\\X\\E3 2 \\X\\B4\\X\\A6\\X\\B5\\X\\C4\\X\\C4\\X\\AC\\X\\C8\\X\\CF\\X\\B7\\X\\FB\\X\\BA\\X\\C5", 
+    "NominalValue": "IFCBOOLEAN(.T.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************341**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\D7\\X\\D4\\X\\B6\\X\\AF\\X\\BC\\X\\C6\\X\\CB\\X\\E3\\X\\B7\\X\\BF\\X\\BC\\X\\E4\\X\\B8\\X\\DF\\X\\B6\\X\\C8", 
+    "NominalValue": "IFCBOOLEAN(.T.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************342**********************************
+{
+    "Description": null, 
+    "GlobalId": "3wghN0EBLBVPaRvv2IHsPH", 
+    "HasProperties": [
+        333
+    ], 
+    "Name": "PSet_Revit_\\X\\B1\\X\\EA\\X\\CA\\X\\B6\\X\\CA\\X\\FD\\X\\BE\\X\\DD", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            343
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************343**********************************
+{
+    "Description": null, 
+    "GlobalId": "155jMg73193f4E_FwtJRkD", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        39
+    ], 
+    "RelatingPropertyDefinition": 342, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************344**********************************
+{
+    "Description": null, 
+    "GlobalId": "0Ypscfne94TvkTORblrmZ0", 
+    "HasProperties": [
+        334
+    ], 
+    "Name": "PSet_Revit_\\X\\CF\\X\\DE\\X\\D6\\X\\C6\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            345
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************345**********************************
+{
+    "Description": null, 
+    "GlobalId": "1XSVmrMkP3Bu5et0vVHcKt", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        39
+    ], 
+    "RelatingPropertyDefinition": 344, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************346**********************************
+{
+    "Description": null, 
+    "GlobalId": "2JYJOFob111O__PQRusSwt", 
+    "HasProperties": [
+        335, 
+        336, 
+        337, 
+        339, 
+        340
+    ], 
+    "Name": "PSet_Revit_Type_\\X\\CD\\X\\BC\\X\\D0\\X\\CE", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            366
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************347**********************************
+{
+    "Description": null, 
+    "GlobalId": "02xtBXLA19kvZ5nLzVl7SX", 
+    "HasProperties": [
+        338
+    ], 
+    "Name": "PSet_Revit_Type_\\X\\CF\\X\\DE\\X\\D6\\X\\C6\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            367
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************348**********************************
+{
+    "Description": null, 
+    "GlobalId": "3zUoa7wyrBmO7wVZvGF32q", 
+    "HasProperties": [
+        341
+    ], 
+    "Name": "PSet_Revit_Type_\\X\\B3\\X\\DF\\X\\B4\\X\\E7\\X\\B1\\X\\EA\\X\\D7\\X\\A2", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            368
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************349**********************************
+{
+    "Description": null, 
+    "GlobalId": "11SohVBcXBvgfVpoSWxAi7", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedElements": [
+        79, 
+        155, 
+        201, 
+        246
+    ], 
+    "RelatingStructure": 39, 
+    "inverse": {}, 
+    "type": "IFCRELCONTAINEDINSPATIALSTRUCTURE"
+}
+*********************************350**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\C3\\X\\FB\\X\\B3\\X\\C6", 
+    "NominalValue": "IFCLABEL('\\X\\B1\\X\\EA\\X\\B8\\X\\DF 4')", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************351**********************************
+{
+    "Description": null, 
+    "Name": "\\X\\C1\\X\\A2\\X\\C3\\X\\E6", 
+    "NominalValue": "IFCLENGTHMEASURE(3200.)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************352**********************************
+{
+    "Description": null, 
+    "GlobalId": "0FGV21aTz80PJEJ7Xe3Ic$", 
+    "HasProperties": [
+        350
+    ], 
+    "Name": "PSet_Revit_\\X\\B1\\X\\EA\\X\\CA\\X\\B6\\X\\CA\\X\\FD\\X\\BE\\X\\DD", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            353
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************353**********************************
+{
+    "Description": null, 
+    "GlobalId": "0jNTFsoif28Qu9dV7WHrg1", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        47
+    ], 
+    "RelatingPropertyDefinition": 352, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************354**********************************
+{
+    "Description": null, 
+    "GlobalId": "0E4hmQcRL4v92TRvNBU8OW", 
+    "HasProperties": [
+        351
+    ], 
+    "Name": "PSet_Revit_\\X\\CF\\X\\DE\\X\\D6\\X\\C6\\X\\CC\\X\\F5\\X\\BC\\X\\FE", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            355
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************355**********************************
+{
+    "Description": null, 
+    "GlobalId": "1cqNSA5rz4HAMtd_FoFkWr", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        47
+    ], 
+    "RelatingPropertyDefinition": 354, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************356**********************************
+{
+    "Description": null, 
+    "GlobalId": "2IBbk5XQP5UwPdpiC3umd8", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedElements": [
+        267
+    ], 
+    "RelatingStructure": 47, 
+    "inverse": {}, 
+    "type": "IFCRELCONTAINEDINSPATIALSTRUCTURE"
+}
+*********************************357**********************************
+{
+    "Description": null, 
+    "GlobalId": "3mWrqC4MTF8fV16pNJoixi", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        39, 
+        47
+    ], 
+    "RelatingObject": 36, 
+    "inverse": {}, 
+    "type": "IFCRELAGGREGATES"
+}
+*********************************358**********************************
+{
+    "Description": null, 
+    "Name": "NumberOfStoreys", 
+    "NominalValue": "IFCINTEGER(2)", 
+    "Unit": null, 
+    "inverse": {}, 
+    "type": "IFCPROPERTYSINGLEVALUE"
+}
+*********************************359**********************************
+{
+    "Description": null, 
+    "GlobalId": "0$XRuD2bLBSwK2KvSHcNpp", 
+    "HasProperties": [
+        358
+    ], 
+    "Name": "Pset_BuildingCommon", 
+    "OwnerHistory": 33, 
+    "inverse": {
+        "PropertyDefinitionOf": [
+            360
+        ]
+    }, 
+    "type": "IFCPROPERTYSET"
+}
+*********************************360**********************************
+{
+    "Description": null, 
+    "GlobalId": "3eHNRsjIv8bh488DU66iur", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        36
+    ], 
+    "RelatingPropertyDefinition": 359, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************361**********************************
+{
+    "Description": null, 
+    "GlobalId": "08sYUI27TFZ97YbDCVa5MJ", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        79
+    ], 
+    "RelatingMaterial": "#127", 
+    "inverse": {}, 
+    "type": "IFCRELASSOCIATESMATERIAL"
+}
+*********************************362**********************************
+{
+    "Description": null, 
+    "GlobalId": "2vkLumyQXCcxrgaWp$GHZs", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        155
+    ], 
+    "RelatingMaterial": "#173", 
+    "inverse": {}, 
+    "type": "IFCRELASSOCIATESMATERIAL"
+}
+*********************************363**********************************
+{
+    "Description": null, 
+    "GlobalId": "1Z8xstuML49ekKrO03943Q", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        201
+    ], 
+    "RelatingMaterial": "#219", 
+    "inverse": {}, 
+    "type": "IFCRELASSOCIATESMATERIAL"
+}
+*********************************364**********************************
+{
+    "Description": null, 
+    "GlobalId": "0XkMFat61DqxDOIjo351VO", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        246
+    ], 
+    "RelatingMaterial": "#264", 
+    "inverse": {}, 
+    "type": "IFCRELASSOCIATESMATERIAL"
+}
+*********************************365**********************************
+{
+    "Description": null, 
+    "GlobalId": "0RfTiqRBrCAgn_or4G5jXf", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        267
+    ], 
+    "RelatingMaterial": "#327", 
+    "inverse": {}, 
+    "type": "IFCRELASSOCIATESMATERIAL"
+}
+*********************************366**********************************
+{
+    "Description": null, 
+    "GlobalId": "3F2zOABS5D$AM82Q_UwZKn", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        39, 
+        47
+    ], 
+    "RelatingPropertyDefinition": 346, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************367**********************************
+{
+    "Description": null, 
+    "GlobalId": "0uNvzhu4L82P5BGTUs$1Y9", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        39, 
+        47
+    ], 
+    "RelatingPropertyDefinition": 347, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************368**********************************
+{
+    "Description": null, 
+    "GlobalId": "1lwBrTChL7HBho2vOhhkrR", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        39, 
+        47
+    ], 
+    "RelatingPropertyDefinition": 348, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************369**********************************
+{
+    "Description": null, 
+    "GlobalId": "1r823UNqr3kvKnHJEtJGED", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        79, 
+        155, 
+        201, 
+        246
+    ], 
+    "RelatingPropertyDefinition": 117, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************370**********************************
+{
+    "Description": null, 
+    "GlobalId": "1FPz3pIjf2$hoPlOkzlnyI", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        79, 
+        155, 
+        201, 
+        246
+    ], 
+    "RelatingPropertyDefinition": 118, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************371**********************************
+{
+    "Description": null, 
+    "GlobalId": "3SVwWfCxb04P063P6uDfiu", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        79, 
+        155, 
+        201, 
+        246
+    ], 
+    "RelatingPropertyDefinition": 119, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************372**********************************
+{
+    "Description": null, 
+    "GlobalId": "07ehiWzM1Fb9f2mI$uuRcW", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        267
+    ], 
+    "RelatingPropertyDefinition": 317, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************373**********************************
+{
+    "Description": null, 
+    "GlobalId": "3zhHvIz$jDy8bOxYv8W0aC", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        267
+    ], 
+    "RelatingPropertyDefinition": 318, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************374**********************************
+{
+    "Description": null, 
+    "GlobalId": "2Uscn5b1D5Dx5yFRl0WZzC", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedObjects": [
+        267
+    ], 
+    "RelatingPropertyDefinition": 319, 
+    "inverse": {}, 
+    "type": "IFCRELDEFINESBYPROPERTIES"
+}
+*********************************375**********************************
+{
+    "ConnectionGeometry": null, 
+    "Description": null, 
+    "GlobalId": "01Kl1tokPDfAJYHT4VPTWL", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedConnectionType": ".ATEND.", 
+    "RelatedElement": 246, 
+    "RelatedPriorities": [], 
+    "RelatingConnectionType": ".ATSTART.", 
+    "RelatingElement": 79, 
+    "RelatingPriorities": [], 
+    "inverse": {}, 
+    "type": "IFCRELCONNECTSPATHELEMENTS"
+}
+*********************************376**********************************
+{
+    "ConnectionGeometry": null, 
+    "Description": null, 
+    "GlobalId": "1QaAqkNRTF_OromDlJC$g5", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedConnectionType": ".ATSTART.", 
+    "RelatedElement": 155, 
+    "RelatedPriorities": [], 
+    "RelatingConnectionType": ".ATEND.", 
+    "RelatingElement": 79, 
+    "RelatingPriorities": [], 
+    "inverse": {}, 
+    "type": "IFCRELCONNECTSPATHELEMENTS"
+}
+*********************************377**********************************
+{
+    "ConnectionGeometry": null, 
+    "Description": null, 
+    "GlobalId": "2G0xJ_1dD9kf0nebK1XmOQ", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedConnectionType": ".ATSTART.", 
+    "RelatedElement": 201, 
+    "RelatedPriorities": [], 
+    "RelatingConnectionType": ".ATEND.", 
+    "RelatingElement": 155, 
+    "RelatingPriorities": [], 
+    "inverse": {}, 
+    "type": "IFCRELCONNECTSPATHELEMENTS"
+}
+*********************************378**********************************
+{
+    "ConnectionGeometry": null, 
+    "Description": null, 
+    "GlobalId": "00KBBniLb0Ne8WFSu1EgbS", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedConnectionType": ".ATSTART.", 
+    "RelatedElement": 246, 
+    "RelatedPriorities": [], 
+    "RelatingConnectionType": ".ATEND.", 
+    "RelatingElement": 201, 
+    "RelatingPriorities": [], 
+    "inverse": {}, 
+    "type": "IFCRELCONNECTSPATHELEMENTS"
+}
+*********************************379**********************************
+{
+    "ConnectionGeometry": null, 
+    "Description": null, 
+    "GlobalId": "3bITMWHlz7aRxSZOp6d4Bx", 
+    "Name": null, 
+    "OwnerHistory": 33, 
+    "RelatedConnectionType": ".ATEND.", 
+    "RelatedElement": 246, 
+    "RelatedPriorities": [], 
+    "RelatingConnectionType": ".ATSTART.", 
+    "RelatingElement": 79, 
+    "RelatingPriorities": [], 
+    "inverse": {}, 
+    "type": "IFCRELCONNECTSPATHELEMENTS"
+}
+*********************************380**********************************
+{
+    "AssignedItems": [
+        "#281"
+    ], 
+    "Description": null, 
+    "Identifier": null, 
+    "Name": "A-ROOFOTM", 
+    "inverse": {}, 
+    "type": "IFCPRESENTATIONLAYERASSIGNMENT"
+}
+*********************************381**********************************
+{
+    "AssignedItems": [
+        "#53", 
+        "#77", 
+        "#133", 
+        "#153", 
+        "#179", 
+        "#199", 
+        "#225", 
+        "#244"
+    ], 
+    "Description": null, 
+    "Identifier": null, 
+    "Name": "A-WALLMBM", 
+    "inverse": {}, 
+    "type": "IFCPRESENTATIONLAYERASSIGNMENT"
+}

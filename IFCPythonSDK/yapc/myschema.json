@@ -1,0 +1,243 @@
+********************************KTEXT*********************************
+{
+    "content": {
+        "TYPE": "STRING"
+    }, 
+    "where": {}
+}
+****************************KDesignElement****************************
+{
+    "derive": {}, 
+    "attribute": [
+        {
+            "TYPE": "KTEXT", 
+            "KEY": "Name"
+        }
+    ], 
+    "subtype": [], 
+    "inverse": {
+        "Belongs": {
+            "UBOUND": "?", 
+            "LBOUND": 1, 
+            "TYPE": "SET", 
+            "FOR": "Owner", 
+            "BASETYPE": "KRelBelongedToElement"
+        }
+    }, 
+    "supertype": "KDimension", 
+    "unique": {}, 
+    "where": {}
+}
+************************KRelBelongedToElement*************************
+{
+    "derive": {}, 
+    "attribute": [
+        {
+            "BASETYPE": {
+                "TYPE": "KDocument"
+            }, 
+            "UBOUND": "?", 
+            "KEY": "Documents", 
+            "TYPE": "SET", 
+            "LBOUND": 1, 
+            "REF": 1
+        }, 
+        {
+            "REF": 1, 
+            "TYPE": "KProject", 
+            "KEY": "Owner"
+        }
+    ], 
+    "subtype": [], 
+    "inverse": {}, 
+    "supertype": "KRelation", 
+    "unique": {}, 
+    "where": {}
+}
+*******************************KProject*******************************
+{
+    "derive": {}, 
+    "attribute": [
+        {
+            "TYPE": "KTEXT", 
+            "KEY": "Name"
+        }
+    ], 
+    "subtype": [], 
+    "inverse": {
+        "Belongs": {
+            "UBOUND": "?", 
+            "LBOUND": 1, 
+            "TYPE": "SET", 
+            "FOR": "Owner", 
+            "BASETYPE": "KRelBelongedToProject"
+        }, 
+        "IsCompletedBy": {
+            "UBOUND": "?", 
+            "LBOUND": 1, 
+            "TYPE": "SET", 
+            "FOR": "Project", 
+            "BASETYPE": "KRelParticipate"
+        }
+    }, 
+    "supertype": "KDimension", 
+    "unique": {}, 
+    "where": {}
+}
+***************************KRelParticipate****************************
+{
+    "derive": {}, 
+    "attribute": [
+        {
+            "BASETYPE": {
+                "TYPE": "KCompany"
+            }, 
+            "UBOUND": "?", 
+            "KEY": "Participant", 
+            "TYPE": "SET", 
+            "LBOUND": 1, 
+            "REF": 1
+        }, 
+        {
+            "REF": 1, 
+            "TYPE": "KProject", 
+            "KEY": "Project"
+        }
+    ], 
+    "subtype": [], 
+    "inverse": {}, 
+    "supertype": "KRelation", 
+    "unique": {}, 
+    "where": {}
+}
+******************************KRelation*******************************
+{
+    "derive": {}, 
+    "attribute": [], 
+    "subtype": [], 
+    "inverse": {}, 
+    "supertype": "KRoot", 
+    "unique": {}, 
+    "where": {}
+}
+*******************************KCompany*******************************
+{
+    "derive": {}, 
+    "attribute": [
+        {
+            "TYPE": "KTEXT", 
+            "KEY": "Name"
+        }, 
+        {
+            "TYPE": "KTEXT", 
+            "KEY": "Place"
+        }
+    ], 
+    "subtype": [], 
+    "inverse": {
+        "Completes": {
+            "UBOUND": "?", 
+            "LBOUND": 1, 
+            "TYPE": "SET", 
+            "FOR": "Participant", 
+            "BASETYPE": "KRelParticipate"
+        }
+    }, 
+    "supertype": "KRoot", 
+    "unique": {}, 
+    "where": {}
+}
+******************************KDocument*******************************
+{
+    "derive": {}, 
+    "attribute": [
+        {
+            "TYPE": "KTEXT", 
+            "KEY": "Name"
+        }, 
+        {
+            "TYPE": "KTEXT", 
+            "KEY": "Type"
+        }, 
+        {
+            "TYPE": "KTEXT", 
+            "KEY": "URL"
+        }
+    ], 
+    "subtype": [], 
+    "inverse": {
+        "IsBelongedToProject": {
+            "UBOUND": "?", 
+            "LBOUND": 1, 
+            "TYPE": "SET", 
+            "FOR": "Documents", 
+            "BASETYPE": "KRelBelongedToProject"
+        }, 
+        "IsBelongedToElement": {
+            "UBOUND": "?", 
+            "LBOUND": 1, 
+            "TYPE": "SET", 
+            "FOR": "Documents", 
+            "BASETYPE": "KRelBelongedToElement"
+        }
+    }, 
+    "supertype": "KRoot", 
+    "unique": {}, 
+    "where": {}
+}
+******************************KDrawings*******************************
+{
+    "derive": {}, 
+    "attribute": [], 
+    "subtype": [], 
+    "inverse": {}, 
+    "supertype": "KDocument", 
+    "unique": {}, 
+    "where": {}
+}
+************************KRelBelongedToProject*************************
+{
+    "derive": {}, 
+    "attribute": [
+        {
+            "BASETYPE": {
+                "TYPE": "KDocument"
+            }, 
+            "UBOUND": "?", 
+            "KEY": "Documents", 
+            "TYPE": "SET", 
+            "LBOUND": 1, 
+            "REF": 1
+        }, 
+        {
+            "REF": 1, 
+            "TYPE": "KProject", 
+            "KEY": "Owner"
+        }
+    ], 
+    "subtype": [], 
+    "inverse": {}, 
+    "supertype": "KRelation", 
+    "unique": {}, 
+    "where": {}
+}
+********************************KRoot*********************************
+{
+    "derive": {}, 
+    "attribute": [], 
+    "subtype": [], 
+    "inverse": {}, 
+    "supertype": null, 
+    "unique": {}, 
+    "where": {}
+}
+******************************KDimension******************************
+{
+    "derive": {}, 
+    "attribute": [], 
+    "subtype": [], 
+    "inverse": {}, 
+    "supertype": "KRoot", 
+    "unique": {}, 
+    "where": {}
+}

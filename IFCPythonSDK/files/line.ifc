@@ -1,0 +1,9 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('ViewDefinition [CoordinationView]'),'2;1');
+FILE_NAME('','2012-04-18T11:51:30',(''),(''),'Autodesk Revit Architecture 2011 - 1.0','20100326_1700(x64)','');
+FILE_SCHEMA(('IFC2X3'));
+ENDSEC;
+DATA;
+#284=IFCSLAB('2EXfc6FLjAEuVNV7eNR_mR',#33,'\X\BB\X\F9\X\B1\X\BE\X\CE\X\DD\X\B6\X\A5:\X\CE\X\DD\X\B6\X\A5 1:7433',$,'\X\BB\X\F9\X\B1\X\BE\X\CE\X\DD\X\B6\X\A5:\X\CE\X\DD\X\B6\X\A5 1',#283,#282,'7433',.ROOF.);
+ENDSEC;
